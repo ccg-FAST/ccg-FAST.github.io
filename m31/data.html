@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M31 Data | FAST HI Survey</title>
+    <meta name="description" content="">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/images/fast-icon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- MathJax for LaTeX support -->
+    
+</head>
+<body>
+    <header class="site-header">
+    <div class="container">
+        <div class="header-inner">
+            <!-- Logo -->
+            <a href="/" class="site-logo">
+                <span class="logo-icon">🛰️</span>
+                <div class="logo-text">
+                    <span class="logo-title">FAST HI Survey</span>
+                    <span class="logo-subtitle">CCG Group</span>
+                </div>
+            </a>
+            
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    
+                        </ul>
+                        
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile navigation script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', function() {
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('is-open');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('is-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    });
+</script>
+
+    
+    <main class="main-content">
+        <div class="page-header">
+    <div class="container">
+        <h1 class="page-title">M31 Data Products</h1>
+        <p class="page-subtitle">Download Cubes, Maps, and Catalogs</p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Survey Navigation -->
+    <nav class="survey-nav">
+        <a href="/m31/index.html" class="survey-nav-link">Overview</a>
+        <a href="/m31/science.html" class="survey-nav-link">Science</a>
+        <a href="/m31/observation.html" class="survey-nav-link">Observation</a>
+        <a href="/m31/publications.html" class="survey-nav-link">Publications</a>
+        <a href="/m31/data.html" class="survey-nav-link active">Data</a>
+    </nav>
+
+    <!-- Data Release -->
+    <section class="content-section">
+        <h2 class="section-title">Data Releases</h2>
+
+        <div class="alert alert-info">
+            <strong>Current Release:</strong> Data Release 1 (DR1) - [Status: Planned/In Progress/Released]<br>
+            <strong>Release Date:</strong> [Date]<br>
+            <strong>Coverage:</strong> [Description of coverage]
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Release</th>
+                    <th>Date</th>
+                    <th>Coverage</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DR1</td>
+                    <td>[Date]</td>
+                    <td>M31 disk</td>
+                    <td>[Status]</td>
+                </tr>
+                <tr>
+                    <td>DR2</td>
+                    <td>Planned</td>
+                    <td>Disk + halo</td>
+                    <td>Planned</td>
+                </tr>
+                <tr>
+                    <td>Final</td>
+                    <td>Planned</td>
+                    <td>Complete coverage</td>
+                    <td>Planned</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Data Cubes -->
+    <section class="content-section">
+        <h2 class="section-title">HI Data Cubes</h2>
+
+        <p>The primary data product is the 3D HI data cube covering M31:</p>
+
+        <div class="data-card">
+            <span class="data-icon">🧊</span>
+            <div class="data-info">
+                <div class="data-title">M31 HI Data Cube (DR1)</div>
+                <div class="data-meta">FITS cube | Full resolution | [Size] GB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">🧊</span>
+            <div class="data-info">
+                <div class="data-title">M31 HI Data Cube (smoothed)</div>
+                <div class="data-meta">FITS cube | Smoothed to [X] arcmin | [Size] GB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <h3 class="section-subtitle">Cube Parameters</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>[N] × [N] pixels, [N] channels</td>
+                </tr>
+                <tr>
+                    <td>Spatial pixel size</td>
+                    <td>[X] arcmin</td>
+                </tr>
+                <tr>
+                    <td>Velocity resolution</td>
+                    <td>[X] km/s</td>
+                </tr>
+                <tr>
+                    <td>Velocity range</td>
+                    <td>[Vmin] to [Vmax] km/s</td>
+                </tr>
+                <tr>
+                    <td>RMS noise</td>
+                    <td>[X] mJy/beam</td>
+                </tr>
+                <tr>
+                    <td>Beam size</td>
+                    <td>[X] × [Y] arcmin</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-warning">
+            <strong>Note:</strong> Data cubes are large files (several GB). Please ensure you have sufficient storage and bandwidth before downloading.
+        </div>
+    </section>
+
+    <!-- Moment Maps -->
+    <section class="content-section">
+        <h2 class="section-title">Moment Maps</h2>
+
+        <p>Moment maps derived from the data cube:</p>
+
+        <div class="data-card">
+            <span class="data-icon">🗺️</span>
+            <div class="data-info">
+                <div class="data-title">Moment 0 - Integrated Intensity</div>
+                <div class="data-meta">FITS image | Total HI column density | [Size] MB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">🗺️</span>
+            <div class="data-info">
+                <div class="data-title">Moment 1 - Velocity Field</div>
+                <div class="data-meta">FITS image | Mean line-of-sight velocity | [Size] MB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">🗺️</span>
+            <div class="data-info">
+                <div class="data-title">Moment 2 - Velocity Dispersion</div>
+                <div class="data-meta">FITS image | Velocity dispersion | [Size] MB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HVC Catalog -->
+    <section class="content-section">
+        <h2 class="section-title">High-Velocity Cloud Catalog</h2>
+
+        <div class="data-card">
+            <span class="data-icon">📋</span>
+            <div class="data-info">
+                <div class="data-title">M31 HVC Catalog (DR1)</div>
+                <div class="data-meta">FITS table | [N] clouds | [Size] MB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">📊</span>
+            <div class="data-info">
+                <div class="data-title">M31 HVC Catalog (CSV)</div>
+                <div class="data-meta">CSV format | [N] clouds | [Size] MB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <h3 class="section-subtitle">Catalog Columns</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column</th>
+                    <th>Unit</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ID</td>
+                    <td>-</td>
+                    <td>Unique cloud identifier</td>
+                </tr>
+                <tr>
+                    <td>RA</td>
+                    <td>deg</td>
+                    <td>Right Ascension (J2000)</td>
+                </tr>
+                <tr>
+                    <td>DEC</td>
+                    <td>deg</td>
+                    <td>Declination (J2000)</td>
+                </tr>
+                <tr>
+                    <td>VEL</td>
+                    <td>km/s</td>
+                    <td>Central velocity</td>
+                </tr>
+                <tr>
+                    <td>VEL_WIDTH</td>
+                    <td>km/s</td>
+                    <td>Velocity width (W50)</td>
+                </tr>
+                <tr>
+                    <td>FLUX</td>
+                    <td>Jy km/s</td>
+                    <td>Integrated flux</td>
+                </tr>
+                <tr>
+                    <td>LOGMHI</td>
+                    <td>M☉</td>
+                    <td>Log of HI mass</td>
+                </tr>
+                <tr>
+                    <td>DIAMETER</td>
+                    <td>arcmin</td>
+                    <td>Angular diameter</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Rotation Curve -->
+    <section class="content-section">
+        <h2 class="section-title">Rotation Curve</h2>
+
+        <div class="data-card">
+            <span class="data-icon">📈</span>
+            <div class="data-info">
+                <div class="data-title">M31 Rotation Curve</div>
+                <div class="data-meta">ASCII table | Radius, velocity, error | [Size] KB</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ancillary Data -->
+    <section class="content-section">
+        <h2 class="section-title">Ancillary Data</h2>
+
+        <div class="data-card">
+            <span class="data-icon">🗺️</span>
+            <div class="data-info">
+                <div class="data-title">M31 Coverage Map</div>
+                <div class="data-meta">PNG/PDF format | Observation footprint</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">📋</span>
+            <div class="data-info">
+                <div class="data-title">Observation Log</div>
+                <div class="data-meta">ASCII format | Observation dates and parameters</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <span class="data-icon">🖼️</span>
+            <div class="data-info">
+                <div class="data-title">Preview Images</div>
+                <div class="data-meta">PNG format | Moment map previews</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Policy -->
+    <section class="content-section">
+        <h2 class="section-title">Data Policy</h2>
+
+        <h3 class="section-subtitle">Usage Rights</h3>
+        <p>M31 survey data products are released under [specify license, e.g., CC BY 4.0]. Users are free to:</p>
+        <ul>
+            <li>Use the data for any research purpose</li>
+            <li>Share and redistribute the data</li>
+            <li>Create derivative works</li>
+        </ul>
+
+        <h3 class="section-subtitle">Citation Requirements</h3>
+        <p>Publications using M31 survey data must include the following citations:</p>
+        <ul>
+            <li>[Primary survey paper citation]</li>
+            <li>Appropriate acknowledgment of the FAST telescope</li>
+        </ul>
+
+        <h3 class="section-subtitle">Acknowledgment Text</h3>
+        <div class="alert alert-info">
+            <em>"This research made use of data from the FAST M31 Survey, conducted by the CCG group. The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a national major science research facility in China, operated by the National Astronomical Observatories, Chinese Academy of Sciences."</em>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="content-section">
+        <h2 class="section-title">Data Access Questions</h2>
+        <p>For questions about data products, format, or access issues, please contact [contact email] or visit our <a href="/people.html">people page</a>.</p>
+    </section>
+
+    <!-- Editing Note -->
+    <section class="content-section">
+        <div class="info-box">
+            <h3 class="info-box-title">Managing Data Downloads</h3>
+            <p>To add or update data products:</p>
+            <ol>
+                <li>Upload data files to your repository (consider using Git LFS for large files)</li>
+                <li>Update the download links in <code>m31/data.md</code></li>
+                <li>Update file sizes and cloud counts</li>
+                <li>For very large files, consider hosting externally (e.g., Zenodo, institutional repository) and linking here</li>
+            </ol>
+        </div>
+    </section>
+</div>
+    </main>
+    
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-section">
+                <h3 class="footer-title">FAST HI Survey</h3>
+                <p class="footer-description">HI neutral hydrogen survey projects using the Five-hundred-meter Aperture Spherical radio Telescope (FAST).</p>
+                <p class="footer-affiliation">CCG Group</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Projects</h4>
+                <ul class="footer-links">
+                    <li><a href="/hd2/index.html">HD2 Survey</a></li>
+                    <li><a href="/m31/index.html">M31 Survey</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="/people.html">People</a></li>
+                    <li><a href="/links.html">Useful Links</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">External</h4>
+                <ul class="footer-links">
+                    <li><a href="https://fast.bao.ac.cn/" target="_blank" rel="noopener">FAST Official</a></li>
+                    <li><a href="https://github.com/ccg-FAST/ccg-FAST.github.io" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: '%Y' }} CCG Group. Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> & <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>.</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <!-- Smooth scroll for anchor links -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

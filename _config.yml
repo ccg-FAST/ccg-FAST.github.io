@@ -1,0 +1,69 @@
+# CCG FAST HI Survey Website Configuration
+title: "FAST HI Survey"
+description: "HI Survey Projects with FAST Telescope - CCG Group"
+baseurl: ""  # 如果使用自定义域名，保持为空
+url: "https://ccg-fast.github.io"
+
+# 作者信息
+author:
+  name: "CCG Group"
+  email: ""
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# 导航菜单
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "HD2 Survey"
+    url: "/hd2/"
+    subnav:
+      - title: "Science"
+        url: "/hd2/science"
+      - title: "Observation"
+        url: "/hd2/observation"
+      - title: "Publications"
+        url: "/hd2/publications"
+      - title: "Data"
+        url: "/hd2/data"
+  - title: "M31 Survey"
+    url: "/m31/"
+    subnav:
+      - title: "Science"
+        url: "/m31/science"
+      - title: "Observation"
+        url: "/m31/observation"
+      - title: "Publications"
+        url: "/m31/publications"
+      - title: "Data"
+        url: "/m31/data"
+  - title: "People"
+    url: "/people"
+  - title: "Useful Links"
+    url: "/links"
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
