@@ -6,10 +6,10 @@ title: Home
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <h1 class="hero-title">FAST HI Survey</h1>
-        <p class="hero-subtitle">Neutral hydrogen surveys with the Five-hundred-meter Aperture Spherical radio Telescope (FAST)</p>
+        <h1 class="hero-title">HI Survey conducted by CCG@NAOC</h1>
+        <p class="hero-subtitle">Medium-coverage HI Deep surveys with the Five-hundred-meter Aperture Spherical radio Telescope (FAST), by Computational Cosmology Group @ NAOC</p>
         <div class="hero-actions">
-            <a href="{{ '/hd2/' | relative_url }}" class="btn btn-primary">The FAST Hundred-deg² HI Deep Survey</a>
+            <a href="{{ '/hd2/' | relative_url }}" class="btn btn-primary">The FAST Hundred-deg² HI Deep (HD²) Survey</a>
             <a href="{{ '/m31/' | relative_url }}" class="btn btn-secondary">The FAST M31 HI Deep Survey</a>
         </div>
     </div>

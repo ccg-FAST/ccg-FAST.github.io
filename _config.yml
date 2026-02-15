@@ -1,5 +1,5 @@
 # CCG FAST HI Survey Website Configuration
-title: "FAST HI Survey"
+title: "FAST HI Surveys of CCG Group"
 description: "HI Survey Projects with FAST Telescope - CCG Group"
 baseurl: ""  # 如果使用自定义域名，保持为空
 url: "https://ccg-fast.github.io"
