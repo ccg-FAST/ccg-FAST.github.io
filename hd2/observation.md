@@ -30,7 +30,7 @@ title: HD2 Observations
         <div class="figure-container" style="text-align: center; margin: 2rem 0;">
             <img src="{{ '/assets/images/HD2_area.png' | relative_url }}" alt="HD2 Survey Footprint" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <p class="figure-caption" style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; color: #666;">
-                <strong>Figure:</strong> Sky distribution of HD² survey fields overlaid on DESI DR1 spectroscopic completeness (yellow = completeness ~1.0; purple = ~0.4). Red box: HSC-SSP wide field. Orange: Pilot Survey (10 deg²). Blue solid: Y1 shallow (77 deg²). Dark blue solid: Y1 deep (6 deg²). Light blue dashed: Y2 shallow (22.4 deg²). Green dashed: Y2 medium-deep (46 deg²).
+                <strong>Figure:</strong> Sky distribution of HD² survey fields overlaid on DESI DR1 spectroscopic completeness (yellow = completeness ~1.0; purple = ~0.4). Red box: HSC-SSP wide field. Orange: Pilot Survey (10 deg²). Blue solid: Y1 shallow (77 deg²). Dark blue solid: Y1 deep (6 deg²). Light blue dashed: Y2 shallow (22.4 deg²). Green dashed: Y2 medium-deep (46 deg²). (Credit: Xu, Chen)
             </p>
         </div>
 

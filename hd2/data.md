@@ -24,7 +24,7 @@ title: HD2 Data
     <section class="content-section">
         <h2 class="section-title">Data Releases</h2>
         
-        <div class="alert alert-info">
+        <div class="alert alert-warning">
             <strong>To be determined</strong> <br>
         </div>
         
@@ -86,8 +86,8 @@ title: HD2 Data
         <div class="data-card">
             <span class="data-icon">📈</span>
             <div class="data-info">
-                <div class="data-title">Request HI Spectra</div>
-                <div class="data-meta">Contact the PI for data access and collaboration</div>
+                <div class="data-title">HD2 PDR HI Spectra</div>
+                <div class="data-meta">FITS format | 1D extracted spectra</div>
             </div>
             <div class="data-action">
                 <a href="{{ '/people' | relative_url }}" class="btn btn-primary">Contact PI</a>
@@ -124,7 +124,7 @@ title: HD2 Data
             <h3 class="info-box-title">Acknowledgement Template</h3>
             <p style="font-style: italic; line-height: 1.8;">
                 This work made use of the data from FAST (Five-hundred-meter Aperture Spherical radio Telescope) (<a href="https://cstr.cn/31116.02.FAST" target="_blank">https://cstr.cn/31116.02.FAST</a>). FAST is a Chinese national mega-science facility, operated by National Astronomical Observatories, Chinese Academy of Sciences.
-                We acknowledge the support from the HD² survey team (Computational Cosmology Group, NAOC). The HD² survey data were reduced using the HiFAST pipeline. 
+                We acknowledge the support from the FAST-HD² survey team (Computational Cosmology Group, NAOC). The HD² survey data were reduced using the HiFAST pipeline. 
             </p>
         </div>
     </section>

@@ -24,110 +24,31 @@ title: M31 Data
     <section class="content-section">
         <h2 class="section-title">Data Releases</h2>
         
-        <div class="alert alert-info">
-            <strong>Current Release:</strong> Data Release 1 (DR1) - [Status: Planned/In Progress/Released]<br>
-            <strong>Release Date:</strong> [Date]<br>
-            <strong>Coverage:</strong> [Description of coverage]
+        <div class="alert alert-warning">
+            <strong>Currently Not Released</strong>  <br>
         </div>
         
-        <table>
-            <thead>
-                <tr>
-                    <th>Release</th>
-                    <th>Date</th>
-                    <th>Coverage</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>DR1</td>
-                    <td>[Date]</td>
-                    <td>M31 disk</td>
-                    <td>[Status]</td>
-                </tr>
-                <tr>
-                    <td>DR2</td>
-                    <td>Planned</td>
-                    <td>Disk + halo</td>
-                    <td>Planned</td>
-                </tr>
-                <tr>
-                    <td>Final</td>
-                    <td>Planned</td>
-                    <td>Complete coverage</td>
-                    <td>Planned</td>
-                </tr>
-            </tbody>
-        </table>
     </section>
     
     <!-- Data Cubes -->
     <section class="content-section">
         <h2 class="section-title">HI Data Cubes</h2>
         
-        <p>The primary data product is the 3D HI data cube covering M31:</p>
+        <p>The primary data product is the 3D HI data cube covering the M31 halo.</p>
         
         <div class="data-card">
             <span class="data-icon">🧊</span>
             <div class="data-info">
-                <div class="data-title">M31 HI Data Cube (DR1)</div>
-                <div class="data-meta">FITS cube | Full resolution | [Size] GB</div>
+                <div class="data-title">M31 HI Data Cube </div>
+                <div class="data-meta">FITS cube | Currently Not Released</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
             </div>
         </div>
-        
-        <div class="data-card">
-            <span class="data-icon">🧊</span>
-            <div class="data-info">
-                <div class="data-title">M31 HI Data Cube (smoothed)</div>
-                <div class="data-meta">FITS cube | Smoothed to [X] arcmin | [Size] GB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <h3 class="section-subtitle">Cube Parameters</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Parameter</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dimensions</td>
-                    <td>[N] × [N] pixels, [N] channels</td>
-                </tr>
-                <tr>
-                    <td>Spatial pixel size</td>
-                    <td>[X] arcmin</td>
-                </tr>
-                <tr>
-                    <td>Velocity resolution</td>
-                    <td>[X] km/s</td>
-                </tr>
-                <tr>
-                    <td>Velocity range</td>
-                    <td>[Vmin] to [Vmax] km/s</td>
-                </tr>
-                <tr>
-                    <td>RMS noise</td>
-                    <td>[X] mJy/beam</td>
-                </tr>
-                <tr>
-                    <td>Beam size</td>
-                    <td>[X] × [Y] arcmin</td>
-                </tr>
-            </tbody>
-        </table>
         
         <div class="alert alert-warning">
-            <strong>Note:</strong> Data cubes are large files (several GB). Please ensure you have sufficient storage and bandwidth before downloading.
+            <strong>Currently Not Released:</strong> Data cubes are currently restricted to project members. For research collaboration or specific spectra requests, please contact the PI.
         </div>
     </section>
     
@@ -141,10 +62,10 @@ title: M31 Data
             <span class="data-icon">🗺️</span>
             <div class="data-info">
                 <div class="data-title">Moment 0 - Integrated Intensity</div>
-                <div class="data-meta">FITS image | Total HI column density | [Size] MB</div>
+                <div class="data-meta">FITS image | Total HI column density | Currently Not Released</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
             </div>
         </div>
         
@@ -152,10 +73,10 @@ title: M31 Data
             <span class="data-icon">🗺️</span>
             <div class="data-info">
                 <div class="data-title">Moment 1 - Velocity Field</div>
-                <div class="data-meta">FITS image | Mean line-of-sight velocity | [Size] MB</div>
+                <div class="data-meta">FITS image | Mean line-of-sight velocity | Currently Not Released</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
             </div>
         </div>
         
@@ -163,10 +84,10 @@ title: M31 Data
             <span class="data-icon">🗺️</span>
             <div class="data-info">
                 <div class="data-title">Moment 2 - Velocity Dispersion</div>
-                <div class="data-meta">FITS image | Velocity dispersion | [Size] MB</div>
+                <div class="data-meta">FITS image | Velocity dispersion | Currently Not Released</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
             </div>
         </div>
     </section>
@@ -178,129 +99,36 @@ title: M31 Data
         <div class="data-card">
             <span class="data-icon">📋</span>
             <div class="data-info">
-                <div class="data-title">M31 HVC Catalog (DR1)</div>
-                <div class="data-meta">FITS table | [N] clouds | [Size] MB</div>
+                <div class="data-title">M31 HVC Catalog</div>
+                <div class="data-meta">FITS table | Ongoing</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
+            </div>
+        </div>
+
+        <!-- Background Sources -->
+        <h2 class="section-title">Background HI Sources</h2>
+        
+        <div class="data-card">
+            <span class="data-icon">📡</span>
+            <div class="data-info">
+                <div class="data-title">Background HI Source Catalog</div>
+                <div class="data-meta">FITS/CSV format | Extra-galactic sources | Ongoing</div>
+            </div>
+            <div class="data-action">
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Download</a>
             </div>
         </div>
         
         <div class="data-card">
-            <span class="data-icon">📊</span>
+            <span class="data-icon">📉</span>
             <div class="data-info">
-                <div class="data-title">M31 HVC Catalog (CSV)</div>
-                <div class="data-meta">CSV format | [N] clouds | [Size] MB</div>
+                <div class="data-title">HI Spectra of Background Sources</div>
+                <div class="data-meta">FITS format | 1D extracted spectra | Ongoing</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <h3 class="section-subtitle">Catalog Columns</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Column</th>
-                    <th>Unit</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ID</td>
-                    <td>-</td>
-                    <td>Unique cloud identifier</td>
-                </tr>
-                <tr>
-                    <td>RA</td>
-                    <td>deg</td>
-                    <td>Right Ascension (J2000)</td>
-                </tr>
-                <tr>
-                    <td>DEC</td>
-                    <td>deg</td>
-                    <td>Declination (J2000)</td>
-                </tr>
-                <tr>
-                    <td>VEL</td>
-                    <td>km/s</td>
-                    <td>Central velocity</td>
-                </tr>
-                <tr>
-                    <td>VEL_WIDTH</td>
-                    <td>km/s</td>
-                    <td>Velocity width (W50)</td>
-                </tr>
-                <tr>
-                    <td>FLUX</td>
-                    <td>Jy km/s</td>
-                    <td>Integrated flux</td>
-                </tr>
-                <tr>
-                    <td>LOGMHI</td>
-                    <td>M☉</td>
-                    <td>Log of HI mass</td>
-                </tr>
-                <tr>
-                    <td>DIAMETER</td>
-                    <td>arcmin</td>
-                    <td>Angular diameter</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    
-    <!-- Rotation Curve -->
-    <section class="content-section">
-        <h2 class="section-title">Rotation Curve</h2>
-        
-        <div class="data-card">
-            <span class="data-icon">📈</span>
-            <div class="data-info">
-                <div class="data-title">M31 Rotation Curve</div>
-                <div class="data-meta">ASCII table | Radius, velocity, error | [Size] KB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Ancillary Data -->
-    <section class="content-section">
-        <h2 class="section-title">Ancillary Data</h2>
-        
-        <div class="data-card">
-            <span class="data-icon">🗺️</span>
-            <div class="data-info">
-                <div class="data-title">M31 Coverage Map</div>
-                <div class="data-meta">PNG/PDF format | Observation footprint</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="data-card">
-            <span class="data-icon">📋</span>
-            <div class="data-info">
-                <div class="data-title">Observation Log</div>
-                <div class="data-meta">ASCII format | Observation dates and parameters</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="data-card">
-            <span class="data-icon">🖼️</span>
-            <div class="data-info">
-                <div class="data-title">Preview Images</div>
-                <div class="data-meta">PNG format | Moment map previews</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="#" class="btn btn-primary disabled" onclick="return false;">Contact PI</a>
             </div>
         </div>
     </section>
@@ -310,43 +138,26 @@ title: M31 Data
         <h2 class="section-title">Data Policy</h2>
         
         <h3 class="section-subtitle">Usage Rights</h3>
-        <p>M31 survey data products are released under [specify license, e.g., CC BY 4.0]. Users are free to:</p>
-        <ul>
-            <li>Use the data for any research purpose</li>
-            <li>Share and redistribute the data</li>
-            <li>Create derivative works</li>
-        </ul>
+        <p>The M31 survey data policy is currently under discussion. Project members have priority access to the data products.</p>
         
         <h3 class="section-subtitle">Citation Requirements</h3>
-        <p>Publications using M31 survey data must include the following citations:</p>
+        <p>Publications using M31 survey data should cite the following papers:</p>
         <ul>
-            <li>[Primary survey paper citation]</li>
-            <li>Appropriate acknowledgment of the FAST telescope</li>
+            <li>HiFAST pipeline papers (Jing et al. 2024; Liu et al. 2024; Xu et al. 2025; Chen et al. 2026)</li>
+            <li>Relevant M31 paper </li>
         </ul>
         
         <h3 class="section-subtitle">Acknowledgment Text</h3>
         <div class="alert alert-info">
-            <em>"This research made use of data from the FAST M31 Survey, conducted by the CCG group. The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a national major science research facility in China, operated by the National Astronomical Observatories, Chinese Academy of Sciences."</em>
+            <em>"This research made use of data from the FAST M31 Survey, conducted by the CCG group. The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a national major science research facility in China, operated by the National Astronomical Observatories, Chinese Academy of Sciences.
+            We acknowledge the support from the FAST-M31 survey team (Computational Cosmology Group, NAOC). The M31 survey data were reduced using the HiFAST pipeline. "</em>
         </div>
     </section>
     
     <!-- Contact -->
     <section class="content-section">
         <h2 class="section-title">Data Access Questions</h2>
-        <p>For questions about data products, format, or access issues, please contact [contact email] or visit our <a href="{{ '/people' | relative_url }}">people page</a>.</p>
+        <p>For questions about data products, format, or access issues, please contact PI or visit our <a href="{{ '/people' | relative_url }}">people page</a>.</p>
     </section>
-    
-    <!-- Editing Note -->
-    <section class="content-section">
-        <div class="info-box">
-            <h3 class="info-box-title">Managing Data Downloads</h3>
-            <p>To add or update data products:</p>
-            <ol>
-                <li>Upload data files to your repository (consider using Git LFS for large files)</li>
-                <li>Update the download links in <code>m31/data.md</code></li>
-                <li>Update file sizes and cloud counts</li>
-                <li>For very large files, consider hosting externally (e.g., Zenodo, institutional repository) and linking here</li>
-            </ol>
-        </div>
-    </section>
+
 </div>

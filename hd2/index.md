@@ -111,55 +111,6 @@ title: HD2 Survey
         </div>
     </section>
     
-<!-- Survey Status -->
-<section class="content-section">
-    <h2 class="section-title">Expected Survey Parameters</h2>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Parameter</th>
-                <th>Value</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sky coverage</td>
-                <td>100 deg²</td>
-            </tr>
-            <tr>
-                <td>Scan strategy</td>
-                <td>Drift scan, ≥24 passes</td>
-            </tr>
-            <tr>
-                <td>Integration time per beam</td>
-                <td>~20 min</td>
-            </tr>
-            <tr>
-                <td>Map rms sensitivity</td>
-                <td>0.28 mJy beam⁻¹ at 4.8 km s⁻¹</td>
-            </tr>
-
-            <tr>
-                <td>Redshift coverage</td>
-                <td>z &lt; 0.09 and z ~0.3</td>
-            </tr>
-            <tr>
-                <td>Frequency resolution</td>
-                <td>22.8 kHz (4.8 km s⁻¹ at z = 0)</td>
-            </tr>
-            <tr>
-                <td>Beam size</td>
-                <td>2.9 arcmin at z=0</td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <div class="alert alert-info">
-            <strong>Note:</strong> Survey parameters will be updated as observations progress. Check the <a href="{{ '/hd2/observation' | relative_url }}">Observation</a> page for the latest status.
-        </div>
-    </section>
-    
     <!-- Quick Links -->
     <section class="content-section">
         <h2 class="section-title">Quick Links</h2>
