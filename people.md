@@ -49,11 +49,11 @@ title: People
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Tiantian_Liang_梁甜甜.jpg' | relative_url }}" alt="Tiantian Liang" class="person-avatar">
                 <h3 class="person-name">Dr. Tiantian Liang (梁甜甜)</h3>
-                <p class="person-role">Researcher</p>
+                <p class="person-role">Lecturer</p>
                 <p class="person-affiliation">North China Electric Power University</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> Radio astronomy, HI observations, interactions between SNR and the ISM.</p>
-                    <p><strong>Email:</strong> ttliang[at]nao.cas.cn</p>
+                    <p><strong>Email:</strong> 51752684[at]ncepu.edu.cn</p>
                 </div>
             </div>
         
