@@ -5,8 +5,8 @@ title: M31 Survey
 
 <div class="page-header">
     <div class="container">
-        <h1 class="page-title">M31 Survey</h1>
-        <p class="page-subtitle">HI Mapping of the Andromeda Galaxy</p>
+        <h1 class="page-title">The FAST-M31 HI Deep Survey</h1>
+        <p class="page-subtitle">HI Mapping to the halo region of the Andromeda Galaxy</p>
     </div>
 </div>
 

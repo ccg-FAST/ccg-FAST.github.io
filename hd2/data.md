@@ -5,7 +5,7 @@ title: HD2 Data
 
 <div class="page-header">
     <div class="container">
-        <h1 class="page-title">HD2 Data Products</h1>
+        <h1 class="page-title">HD² Data Products</h1>
         <p class="page-subtitle">Download Catalogs, Spectra, and Images</p>
     </div>
 </div>
@@ -25,9 +25,7 @@ title: HD2 Data
         <h2 class="section-title">Data Releases</h2>
         
         <div class="alert alert-info">
-            <strong>Current Release:</strong> Data Release 1 (DR1) - [Status: Planned/In Progress/Released]<br>
-            <strong>Release Date:</strong> [Date]<br>
-            <strong>Coverage:</strong> [Percentage] of the full survey area
+            <strong>To be determined</strong> <br>
         </div>
         
         <table>
@@ -36,24 +34,24 @@ title: HD2 Data
                     <th>Release</th>
                     <th>Date</th>
                     <th>Coverage</th>
-                    <th>Status</th>
+                    <th>Description</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td>PDR (z &lt; 0.09)</td>
+                    <td>Soon</td>
+                    <td>10 deg²</td>
+                    <td>pilot data release</td>
+                </tr>
+                <tr>
                     <td>DR1</td>
-                    <td>[Date]</td>
-                    <td>[X] deg²</td>
-                    <td>[Status]</td>
+                    <td>Planned</td>
+                    <td>100 deg²</td>
+                    <td>Y1+Y2 shallow</td>
                 </tr>
                 <tr>
                     <td>DR2</td>
-                    <td>Planned</td>
-                    <td>[X] deg²</td>
-                    <td>Planned</td>
-                </tr>
-                <tr>
-                    <td>Final</td>
                     <td>Planned</td>
                     <td>100 deg²</td>
                     <td>Planned</td>
@@ -67,192 +65,37 @@ title: HD2 Data
         <h2 class="section-title">Source Catalogs</h2>
         
         <div class="data-card">
-            <span class="data-icon">📋</span>
-            <div class="data-info">
-                <div class="data-title">HD2 DR1 Source Catalog</div>
-                <div class="data-meta">FITS format | [N] sources | [Size] MB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="data-card">
             <span class="data-icon">📊</span>
             <div class="data-info">
-                <div class="data-title">HD2 DR1 Source Catalog (CSV)</div>
-                <div class="data-meta">CSV format | [N] sources | [Size] MB</div>
+                <div class="data-title">HD2 PDR Source Catalog</div>
+                <div class="data-meta">FITS format | See Xu et al. (2026) for details</div>
             </div>
             <div class="data-action">
                 <a href="#" class="btn btn-primary">Download</a>
             </div>
         </div>
         
-        <h3 class="section-subtitle">Catalog Columns</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Column</th>
-                    <th>Unit</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ID</td>
-                    <td>-</td>
-                    <td>Unique source identifier</td>
-                </tr>
-                <tr>
-                    <td>RA</td>
-                    <td>deg</td>
-                    <td>Right Ascension (J2000)</td>
-                </tr>
-                <tr>
-                    <td>DEC</td>
-                    <td>deg</td>
-                    <td>Declination (J2000)</td>
-                </tr>
-                <tr>
-                    <td>GLON</td>
-                    <td>deg</td>
-                    <td>Galactic longitude</td>
-                </tr>
-                <tr>
-                    <td>GLAT</td>
-                    <td>deg</td>
-                    <td>Galactic latitude</td>
-                </tr>
-                <tr>
-                    <td>VEL</td>
-                    <td>km/s</td>
-                    <td>Heliocentric velocity</td>
-                </tr>
-                <tr>
-                    <td>VEL_ERR</td>
-                    <td>km/s</td>
-                    <td>Velocity uncertainty</td>
-                </tr>
-                <tr>
-                    <td>FLUX</td>
-                    <td>Jy km/s</td>
-                    <td>Integrated flux</td>
-                </tr>
-                <tr>
-                    <td>FLUX_ERR</td>
-                    <td>Jy km/s</td>
-                    <td>Flux uncertainty</td>
-                </tr>
-                <tr>
-                    <td>W50</td>
-                    <td>km/s</td>
-                    <td>Line width at 50% of peak</td>
-                </tr>
-                <tr>
-                    <td>W20</td>
-                    <td>km/s</td>
-                    <td>Line width at 20% of peak</td>
-                </tr>
-                <tr>
-                    <td>S/N</td>
-                    <td>-</td>
-                    <td>Signal-to-noise ratio</td>
-                </tr>
-                <tr>
-                    <td>LOGMHI</td>
-                    <td>M☉</td>
-                    <td>Log of HI mass (for known distance)</td>
-                </tr>
-            </tbody>
-        </table>
     </section>
     
-    <!-- Data Cubes -->
+    <!-- HI Spectra Access -->
     <section class="content-section">
-        <h2 class="section-title">Data Cubes</h2>
+        <h2 class="section-title">HI Spectra</h2>
         
-        <p>The following data cubes are available for download. Each cube covers a portion of the HD2 survey area.</p>
-        
-        <div class="data-card">
-            <span class="data-icon">🧊</span>
-            <div class="data-info">
-                <div class="data-title">HD2 Cube - Field 1</div>
-                <div class="data-meta">FITS cube | RA: [X]-[Y], Dec: [A]-[B] | [Size] GB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="data-card">
-            <span class="data-icon">🧊</span>
-            <div class="data-info">
-                <div class="data-title">HD2 Cube - Field 2</div>
-                <div class="data-meta">FITS cube | RA: [X]-[Y], Dec: [A]-[B] | [Size] GB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="alert alert-warning">
-            <strong>Note:</strong> Data cubes are large files (several GB each). Please ensure you have sufficient storage and bandwidth before downloading.
-        </div>
-    </section>
-    
-    <!-- Spectra -->
-    <section class="content-section">
-        <h2 class="section-title">Individual Spectra</h2>
-        
-        <p>Spectra for individual detected sources are available in the following formats:</p>
+        <p>The calibrated HI spectra for individual sources from the HD² survey are available upon reasonable request to the Principal Investigator (PI).</p>
         
         <div class="data-card">
             <span class="data-icon">📈</span>
             <div class="data-info">
-                <div class="data-title">HD2 DR1 Spectra (ASCII)</div>
-                <div class="data-meta">ASCII format | [N] spectra | [Size] MB</div>
+                <div class="data-title">Request HI Spectra</div>
+                <div class="data-meta">Contact the PI for data access and collaboration</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="{{ '/people' | relative_url }}" class="btn btn-primary">Contact PI</a>
             </div>
         </div>
         
-        <div class="data-card">
-            <span class="data-icon">📈</span>
-            <div class="data-info">
-                <div class="data-title">HD2 DR1 Spectra (FITS)</div>
-                <div class="data-meta">FITS format | [N] spectra | [Size] MB</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Ancillary Data -->
-    <section class="content-section">
-        <h2 class="section-title">Ancillary Data</h2>
-        
-        <div class="data-card">
-            <span class="data-icon">🗺️</span>
-            <div class="data-info">
-                <div class="data-title">HD2 Coverage Map</div>
-                <div class="data-meta">PNG/PDF format | Survey footprint visualization</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
-        </div>
-        
-        <div class="data-card">
-            <span class="data-icon">📋</span>
-            <div class="data-info">
-                <div class="data-title">Observation Log</div>
-                <div class="data-meta">ASCII format | Observation dates and parameters</div>
-            </div>
-            <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
-            </div>
+        <div class="alert alert-info">
+            <strong>Note:</strong> When requesting data, please provide a brief description of your scientific project and the specific sources or regions of interest.
         </div>
     </section>
     
@@ -261,43 +104,35 @@ title: HD2 Data
         <h2 class="section-title">Data Policy</h2>
         
         <h3 class="section-subtitle">Usage Rights</h3>
-        <p>HD2 data products are released under [specify license, e.g., CC BY 4.0]. Users are free to:</p>
-        <ul>
-            <li>Use the data for any research purpose</li>
-            <li>Share and redistribute the data</li>
-            <li>Create derivative works</li>
-        </ul>
+        <p>The HD² survey data policy is currently under discussion. In principle, survey members have priority access to the data for scientific analysis and publication.</p>
         
         <h3 class="section-subtitle">Citation Requirements</h3>
-        <p>Publications using HD2 data must include the following citations:</p>
-        <ul>
-            <li>[Primary survey paper citation]</li>
-            <li>Appropriate acknowledgment of the FAST telescope</li>
-        </ul>
+        <p>If you use HD2 data in your research, please cite the following papers (PDR and DR1):</p>
+        
+        <div class="alert alert-info">
+            <p><strong>Pilot Data Release (PDR) Paper:</strong><br>
+            Chen Xu, Yingjie Jing, Jie Wang, et al., "The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey"</p>
+            
+            <p><strong>First Data Release (DR1) Paper:</strong><br>
+            Paper details coming soon (DR1 paper).</p>
+        </div>
         
         <h3 class="section-subtitle">Acknowledgment Text</h3>
-        <div class="alert alert-info">
-            <em>"This research made use of data from the HD2 Survey, a FAST HI survey conducted by the CCG group. The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a national major science research facility in China, operated by the National Astronomical Observatories, Chinese Academy of Sciences."</em>
+        <p>Additionally, please acknowledge the FAST telescope and the CCG group in your publications using the template below:</p>
+
+        <div class="info-box" style="margin-top: var(--space-4);">
+            <h3 class="info-box-title">Acknowledgement Template</h3>
+            <p style="font-style: italic; line-height: 1.8;">
+                This work made use of the data from FAST (Five-hundred-meter Aperture Spherical radio Telescope) (<a href="https://cstr.cn/31116.02.FAST" target="_blank">https://cstr.cn/31116.02.FAST</a>). FAST is a Chinese national mega-science facility, operated by National Astronomical Observatories, Chinese Academy of Sciences.
+                We acknowledge the support from the HD² survey team (Computational Cosmology Group, NAOC). The HD² survey data were reduced using the HiFAST pipeline. 
+            </p>
         </div>
     </section>
     
     <!-- Contact -->
     <section class="content-section">
         <h2 class="section-title">Data Access Questions</h2>
-        <p>For questions about data products, format, or access issues, please contact [contact email] or visit our <a href="{{ '/people' | relative_url }}">people page</a>.</p>
+        <p>For questions about data products, format, or access issues, please contact PI or visit our <a href="{{ '/people' | relative_url }}">people page</a>.</p>
     </section>
     
-    <!-- Editing Note -->
-    <section class="content-section">
-        <div class="info-box">
-            <h3 class="info-box-title">Managing Data Downloads</h3>
-            <p>To add or update data products:</p>
-            <ol>
-                <li>Upload data files to your repository (consider using Git LFS for large files)</li>
-                <li>Update the download links in <code>hd2/data.md</code></li>
-                <li>Update file sizes and source counts</li>
-                <li>For very large files, consider hosting externally (e.g., Zenodo, institutional repository) and linking here</li>
-            </ol>
-        </div>
-    </section>
 </div>

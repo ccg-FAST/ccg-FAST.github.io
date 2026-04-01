@@ -5,7 +5,7 @@ title: HD2 Survey
 
 <div class="page-header">
     <div class="container">
-        <h1 class="page-title">HD2 Survey</h1>
+        <h1 class="page-title">The FAST Hundred-deg² HI Deep (HD²) Survey</h1>
         <p class="page-subtitle">Deep HI Survey of 100 Square Degrees</p>
     </div>
 </div>
@@ -19,21 +19,27 @@ title: HD2 Survey
         <a href="{{ '/hd2/publications' | relative_url }}" class="survey-nav-link">Publications</a>
         <a href="{{ '/hd2/data' | relative_url }}" class="survey-nav-link">Data</a>
     </nav>
-    
+
     <!-- Overview -->
     <section class="content-section">
         <h2 class="section-title">Survey Overview</h2>
         
-        <p>The <strong>HD2 Survey</strong> is a deep neutral hydrogen (HI) survey covering approximately 100 square degrees of the sky using the FAST telescope. This survey aims to detect faint HI emissions from distant galaxies, providing a comprehensive view of the neutral gas content and distribution in the targeted region.</p>
+        <p>The <strong>FAST-HD² Survey</strong> (Hundred-deg² HI Deep Survey) is a medium-area deep neutral hydrogen (HI) survey carried out with the Five-hundred-meter Aperture Spherical Telescope (FAST). The full survey is designed to map a contiguous <strong>~100 deg²</strong> region within the DESI DR1 footprint, achieving an effective integration time of 20 minutes per beam and a uniform detection sensitivity of 0.28 mJy beam⁻¹ at 4.8 km s⁻¹ resolution. </p>
+
+            
+        <div style="text-align: center; margin-bottom: var(--space-8);">
+            <img src="{{ '/assets/images/hd2_logo.png' | relative_url }}" alt="HD2 Logo" style="max-width: 400px; height: auto;">
+        </div>
         
         <div class="info-box">
             <h3 class="info-box-title">Survey Highlights</h3>
             <ul>
-                <li><strong>Area:</strong> ~100 square degrees</li>
-                <li><strong>Sensitivity:</strong> Deep integration for faint source detection</li>
-                <li><strong>Redshift coverage:</strong> z ~ 0 - 0.3 (depending on configuration)</li>
-                <li><strong>Beam size:</strong> ~3 arcminutes at 1.4 GHz</li>
-                <li><strong>Frequency resolution:</strong> Configurable for science goals</li>
+                <li><strong>Full survey area:</strong> ~100 deg² (pilot: 10 deg²)</li>
+                <li><strong>Full survey sensitivity:</strong> 0.28 mJy beam⁻¹ at 4.8 km s⁻¹</li>
+                <li><strong>Redshift coverage:</strong> z &lt; 0.4 </li>
+                <li><strong>Beam size:</strong> ~2.9 arcmin at 1.42 GHz (19-beam receiver)</li>
+                <li><strong>Minimum frequency resolution:</strong> 7.6 kHz (1.6 km s⁻¹ at z = 0)</li>
+                <li><strong>Expected HI detection number density:</strong> more than 30 per deg² </li>
             </ul>
         </div>
     </section>
@@ -45,11 +51,11 @@ title: HD2 Survey
         <div class="card-grid">
             <div class="card">
                 <div class="card-header">
-                    <div class="card-icon">🔭</div>
+                    <div class="card-icon">📊</div>
                     <h3 class="card-title">HI Mass Function</h3>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Measure the HI mass function at low redshifts, constraining the cosmic evolution of neutral gas in galaxies.</p>
+                    <p class="card-text">Extend the faint end of the HI mass function. FAST's superior sensitivity enables detection of low-mass, gas-rich dwarf galaxies that elude shallower surveys.</p>
                 </div>
             </div>
             
@@ -59,68 +65,97 @@ title: HD2 Survey
                     <h3 class="card-title">Large-Scale Structure</h3>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Map the large-scale distribution of HI galaxies and study their clustering properties.</p>
+                    <p class="card-text">Map the spatial distribution and clustering of HI galaxies across ~100 deg² within the DESI DR1 footprint. The survey volume balances cosmic variance and statistical power, providing a robust sample for studying HI in the cosmic web and Bootes Void.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🔗</div>
+                    <h3 class="card-title">DESI Synergy & Scaling Relations</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Combine HI detections and spectral stacking with DESI DR1 redshifts to measure HI gas fractions across stellar mass, color, SFR, and environment.</p>
                 </div>
             </div>
             
             <div class="card">
                 <div class="card-header">
-                    <div class="card-icon">📊</div>
-                    <h3 class="card-title">Gas Content Evolution</h3>
+                    <div class="card-icon">🌫️</div>
+                    <h3 class="card-title">Rare & Exotic Populations</h3>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Investigate how the HI content of galaxies evolves with cosmic time and environment.</p>
+                    <p class="card-text">Uncover rare systems invisible to shallow surveys: ultra-diffuse galaxies (UDGs), low surface brightness galaxies, HI-rich early-type galaxies, and dark gas clouds (RELHICs — Reionization-Limited HI Clouds) with no optical counterpart.</p>
                 </div>
             </div>
-            
+
             <div class="card">
                 <div class="card-header">
-                    <div class="card-icon">🔍</div>
-                    <h3 class="card-title">Faint Source Detection</h3>
+                    <div class="card-icon">📡</div>
+                    <h3 class="card-title">Cosmic HI Density &amp; Intensity Mapping</h3>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Push the detection limits to find low-mass, gas-rich galaxies in the local universe.</p>
+                    <p class="card-text">Constrain Ω<sub>HI</sub> out to z ~ 0.3 via HI spectral stacking and intensity mapping. FAST's depth enables detection of the average HI signal from faint galaxy populations across cosmic time.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🏠</div>
+                    <h3 class="card-title">HI–Halo Mass Relation</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Stack HI spectra of galaxy groups from the DESI Legacy Survey group catalog to measure the HI–halo mass relation and compare with simulations. This links neutral gas reservoirs to dark matter halos across a wide range of environments.</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Survey Status -->
-    <section class="content-section">
-        <h2 class="section-title">Survey Status</h2>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Parameter</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Total area</td>
-                    <td>~100 deg²</td>
-                </tr>
-                <tr>
-                    <td>Observation period</td>
-                    <td>[To be updated]</td>
-                </tr>
-                <tr>
-                    <td>Integration time per beam</td>
-                    <td>[To be updated]</td>
-                </tr>
-                <tr>
-                    <td>RMS sensitivity</td>
-                    <td>[To be updated]</td>
-                </tr>
-                <tr>
-                    <td>Number of detections</td>
-                    <td>[To be updated]</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <div class="alert alert-info">
+<!-- Survey Status -->
+<section class="content-section">
+    <h2 class="section-title">Expected Survey Parameters</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Parameter</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sky coverage</td>
+                <td>100 deg²</td>
+            </tr>
+            <tr>
+                <td>Scan strategy</td>
+                <td>Drift scan, ≥24 passes</td>
+            </tr>
+            <tr>
+                <td>Integration time per beam</td>
+                <td>~20 min</td>
+            </tr>
+            <tr>
+                <td>Map rms sensitivity</td>
+                <td>0.28 mJy beam⁻¹ at 4.8 km s⁻¹</td>
+            </tr>
+
+            <tr>
+                <td>Redshift coverage</td>
+                <td>z &lt; 0.09 and z ~0.3</td>
+            </tr>
+            <tr>
+                <td>Frequency resolution</td>
+                <td>22.8 kHz (4.8 km s⁻¹ at z = 0)</td>
+            </tr>
+            <tr>
+                <td>Beam size</td>
+                <td>2.9 arcmin at z=0</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="alert alert-info">
             <strong>Note:</strong> Survey parameters will be updated as observations progress. Check the <a href="{{ '/hd2/observation' | relative_url }}">Observation</a> page for the latest status.
         </div>
     </section>

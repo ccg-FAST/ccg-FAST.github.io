@@ -5,7 +5,7 @@ title: HD2 Publications
 
 <div class="page-header">
     <div class="container">
-        <h1 class="page-title">HD2 Publications</h1>
+        <h1 class="page-title">HD² Publications</h1>
         <p class="page-subtitle">Scientific Papers and Results</p>
     </div>
 </div>
@@ -20,75 +20,21 @@ title: HD2 Publications
         <a href="{{ '/hd2/data' | relative_url }}" class="survey-nav-link">Data</a>
     </nav>
     
-    <!-- Overview Papers -->
-    <section class="content-section">
-        <h2 class="section-title">Survey Overview Papers</h2>
-        
-        <div class="card">
-            <div class="card-body">
-                <h3 class="card-title">The HD2 Survey: Overview and First Results</h3>
-                <p class="card-text">
-                    <strong>Authors:</strong> [Author list]<br>
-                    <strong>Journal:</strong> [Journal name], [Year]<br>
-                    <strong>Abstract:</strong> [Abstract text describing the survey overview paper]
-                </p>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-outline">arXiv</a>
-                    <a href="#" class="btn btn-outline">Journal</a>
-                    <a href="#" class="btn btn-outline">ADS</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
     <!-- Science Papers -->
     <section class="content-section">
         <h2 class="section-title">Science Papers</h2>
         
         <div class="card" style="margin-bottom: var(--space-4);">
             <div class="card-body">
-                <h3 class="card-title">The HI Mass Function from the HD2 Survey</h3>
+                <h3 class="card-title">The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey</h3>
                 <p class="card-text">
-                    <strong>Authors:</strong> [Author list]<br>
-                    <strong>Journal:</strong> [Journal name], [Year]<br>
-                    <strong>Abstract:</strong> [Abstract describing the HI mass function analysis]
+                    <strong>Authors:</strong> Chen Xu, Yingjie Jing, Jie Wang, et al.<br>
+                    <strong>Journal:</strong> Submitted to ApJS, 2026
                 </p>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-outline">arXiv</a>
-                    <a href="#" class="btn btn-outline">Journal</a>
-                    <a href="#" class="btn btn-outline">ADS</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="margin-bottom: var(--space-4);">
-            <div class="card-body">
-                <h3 class="card-title">Clustering of HI-selected Galaxies in the HD2 Field</h3>
-                <p class="card-text">
-                    <strong>Authors:</strong> [Author list]<br>
-                    <strong>Journal:</strong> [Journal name], [Year]<br>
-                    <strong>Abstract:</strong> [Abstract describing the clustering analysis]
-                </p>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-outline">arXiv</a>
-                    <a href="#" class="btn btn-outline">Journal</a>
-                    <a href="#" class="btn btn-outline">ADS</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="margin-bottom: var(--space-4);">
-            <div class="card-body">
-                <h3 class="card-title">Environmental Dependence of HI Content in the HD2 Survey</h3>
-                <p class="card-text">
-                    <strong>Authors:</strong> [Author list]<br>
-                    <strong>Journal:</strong> [Journal name], [Year]<br>
-                    <strong>Abstract:</strong> [Abstract describing environmental studies]
-                </p>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-outline">arXiv</a>
-                    <a href="#" class="btn btn-outline">Journal</a>
-                    <a href="#" class="btn btn-outline">ADS</a>
+                    <a href="#" class="btn btn-outline disabled">arXiv</a>
+                    <a href="#" class="btn btn-outline disabled">Journal</a>
+                    <a href="#" class="btn btn-outline disabled">ADS</a>
                 </div>
             </div>
         </div>
@@ -97,35 +43,72 @@ title: HD2 Publications
     <!-- Technical Papers -->
     <section class="content-section">
         <h2 class="section-title">Technical Papers</h2>
-        
-        <div class="card">
+
+        <!-- Paper I -->
+        <div class="card" style="margin-bottom: var(--space-4);">
             <div class="card-body">
-                <h3 class="card-title">Data Processing Pipeline for the HD2 Survey</h3>
+                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST I. Pipeline Architecture</h3>
                 <p class="card-text">
-                    <strong>Authors:</strong> [Author list]<br>
-                    <strong>Journal:</strong> [Journal name], [Year]<br>
-                    <strong>Abstract:</strong> [Abstract describing the data processing methods]
+                    <strong>Authors:</strong> Yingjie Jing, Jie Wang, Chen Xu, et al.<br>
+                    <strong>Journal:</strong> Science China Physics, Mechanics &amp; Astronomy, 67, 259514 (2024)
                 </p>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-outline">arXiv</a>
-                    <a href="#" class="btn btn-outline">Journal</a>
-                    <a href="#" class="btn btn-outline">ADS</a>
+                <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
+                    <a href="https://link.springer.com/article/10.1007/s11433-023-2333-8" target="_blank" class="btn btn-outline">Journal</a>
+                    <a href="https://doi.org/10.1007/s11433-023-2333-8" target="_blank" class="btn btn-outline">DOI</a>
+                    <a href="https://ui.adsabs.harvard.edu/abs/2024SCPMA..6759514J/abstract" target="_blank" class="btn btn-outline">ADS</a>
+                    <a href="https://arxiv.org/abs/2401.17364" target="_blank" class="btn btn-outline">arXiv</a>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <!-- Conference Proceedings -->
-    <section class="content-section">
-        <h2 class="section-title">Conference Proceedings</h2>
-        
-        <ul>
-            <li>
-                <strong>[Title of conference proceeding]</strong><br>
-                [Authors], [Conference name], [Year]<br>
-                <a href="#">Link to proceeding</a>
-            </li>
-        </ul>
+
+        <!-- Paper II -->
+        <div class="card" style="margin-bottom: var(--space-4);">
+            <div class="card-body">
+                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST II. Flux Density Calibration</h3>
+                <p class="card-text">
+                    <strong>Authors:</strong> Ziming Liu, Jie Wang, Yingjie Jing, et al.<br>
+                    <strong>Journal:</strong> Research in Astronomy and Astrophysics, 24, 085009 (2024)
+                </p>
+                <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
+                    <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad5398" target="_blank" class="btn btn-outline">Journal</a>
+                    <a href="https://doi.org/10.1088/1674-4527/ad5398" target="_blank" class="btn btn-outline">DOI</a>
+                    <a href="https://ui.adsabs.harvard.edu/abs/2024RAA....24h5009L/abstract" target="_blank" class="btn btn-outline">ADS</a>
+                    <a href="https://arxiv.org/abs/2406.08278" target="_blank" class="btn btn-outline">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paper III -->
+        <div class="card" style="margin-bottom: var(--space-4);">
+            <div class="card-body">
+                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST III. Standing Wave Removal</h3>
+                <p class="card-text">
+                    <strong>Authors:</strong> Chen Xu, Jie Wang, Yingjie Jing, et al.<br>
+                    <strong>Journal:</strong> Research in Astronomy and Astrophysics, 25, 015011 (2025)
+                </p>
+                <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
+                    <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad9653" target="_blank" class="btn btn-outline">Journal</a>
+                    <a href="https://doi.org/10.1088/1674-4527/ad9653" target="_blank" class="btn btn-outline">DOI</a>
+                    <a href="https://ui.adsabs.harvard.edu/abs/2025RAA....25a5011X/abstract" target="_blank" class="btn btn-outline">ADS</a>
+                    <a href="https://arxiv.org/abs/2411.13016" target="_blank" class="btn btn-outline">arXiv</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paper IV -->
+        <div class="card" style="margin-bottom: var(--space-4);">
+            <div class="card-body">
+                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST IV. The Stray-Radiation Correction</h3>
+                <p class="card-text">
+                    <strong>Authors:</strong> Qingze Chen, Jie Wang, Yingjie Jing, et al.<br>
+                    <strong>Journal:</strong> Chinese Physics B (2026)
+                </p>
+                <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
+                    <a href="https://iopscience.iop.org/article/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">Journal</a>
+                    <a href="https://doi.org/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">DOI</a>
+                </div>
+            </div>
+        </div>
     </section>
     
     <!-- Related Publications -->
@@ -138,45 +121,9 @@ title: HD2 Publications
             <li>
                 <strong>[Title of related paper]</strong><br>
                 [Authors], [Journal], [Year]<br>
-                <em>Brief description of relevance to HD2</em>
             </li>
         </ul>
     </section>
     
-    <!-- How to Cite -->
-    <section class="content-section">
-        <h2 class="section-title">How to Cite</h2>
-        
-        <p>If you use HD2 data in your research, please cite the following papers:</p>
-        
-        <div class="alert alert-info">
-            <strong>Primary citation:</strong><br>
-            [Author et al., Year, Journal, Volume, Page] - The HD2 Survey: Overview and First Results
-        </div>
-        
-        <p>Additionally, please acknowledge the FAST telescope and the CCG group in your publications.</p>
-    </section>
     
-    <!-- Editing Note -->
-    <section class="content-section">
-        <div class="info-box">
-            <h3 class="info-box-title">Adding New Publications</h3>
-            <p>To add a new publication, copy this template in <code>hd2/publications.md</code>:</p>
-            <pre><code>&lt;div class="card" style="margin-bottom: var(--space-4);"&gt;
-    &lt;div class="card-body"&gt;
-        &lt;h3 class="card-title"&gt;Paper Title&lt;/h3&gt;
-        &lt;p class="card-text"&gt;
-            &lt;strong&gt;Authors:&lt;/strong&gt; Author list&lt;br&gt;
-            &lt;strong&gt;Journal:&lt;/strong&gt; Journal name, Year&lt;br&gt;
-            &lt;strong&gt;Abstract:&lt;/strong&gt; Brief abstract
-        &lt;/p&gt;
-        &lt;div class="card-footer"&gt;
-            &lt;a href="arxiv-link" class="btn btn-outline"&gt;arXiv&lt;/a&gt;
-            &lt;a href="journal-link" class="btn btn-outline"&gt;Journal&lt;/a&gt;
-            &lt;a href="ads-link" class="btn btn-outline"&gt;ADS&lt;/a&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-        </div>
-    </section>
 </div>

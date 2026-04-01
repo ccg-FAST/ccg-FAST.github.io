@@ -5,7 +5,7 @@ title: HD2 Science
 
 <div class="page-header">
     <div class="container">
-        <h1 class="page-title">HD2 Science</h1>
+        <h1 class="page-title">HD² Science</h1>
         <p class="page-subtitle">Scientific Goals and Research Topics</p>
     </div>
 </div>
@@ -24,145 +24,38 @@ title: HD2 Science
     <section class="content-section">
         <h2 class="section-title">Primary Science Goals</h2>
         
-        <p>The HD2 survey is designed to address several key questions in extragalactic HI astronomy. Our deep observations of 100 square degrees will enable breakthrough studies in the following areas:</p>
+        <p>The HD² survey is designed to open a new parameter space in extragalactic HI astronomy: deeper than wide-field surveys and wider than pointed deep surveys, within a field richly covered by DESI, HSC-SSP, and other multiwavelength datasets. Our science goals span from the statistics of neutral gas in the local universe to the HI distribution of the large structure.</p>
         
-        <h3 class="section-subtitle">1. The HI Mass Function</h3>
-        <p>One of the fundamental statistical measures in extragalactic astronomy, the HI mass function describes the number density of galaxies as a function of their HI mass. HD2 will:</p>
-        <ul>
-            <li>Extend measurements to lower HI masses than previous surveys</li>
-            <li>Constrain the faint-end slope of the mass function</li>
-            <li>Compare with theoretical predictions from cosmological simulations</li>
-            <li>Study the evolution of the HI mass function with redshift</li>
-        </ul>
+        <h3 class="section-subtitle">1. Census of HI-Bearing Galaxies and the HI Mass Function</h3>
+        <p>A fundamental goal of HD² is to provide a highly complete census of HI-bearing galaxies. By leveraging FAST's exceptional sensitivity over a contiguous 100 deg² area, the survey minimizes selection effects and cosmic variance. This enables a robust measurement of the HI mass function (HIMF), providing a reliable benchmark for cosmological simulations and tracing the distribution of neutral gas in the local universe.</p>
         
-        <h3 class="section-subtitle">2. Cosmic HI Density</h3>
-        <p>The comoving HI density ($\Omega_{\rm HI}$) traces the evolution of neutral gas in the universe. Our survey will:</p>
-        <ul>
-            <li>Provide precise measurements of $\Omega_{\rm HI}$ at z ~ 0</li>
-            <li>Compare with higher redshift measurements from damped Lyman-alpha systems</li>
-            <li>Test models of gas consumption and replenishment in galaxies</li>
-        </ul>
-        
-        <h3 class="section-subtitle">3. Large-Scale Structure</h3>
-        <p>HI-selected galaxies trace the underlying matter distribution differently than optically-selected samples. We will study:</p>
-        <ul>
-            <li>Clustering properties of HI-selected galaxies</li>
-            <li>HI content variation with environment (field vs. group vs. cluster)</li>
-            <li>Filamentary structures in the cosmic web traced by neutral hydrogen</li>
-            <li>Redshift-space distortions and peculiar velocities</li>
-        </ul>
+        <h3 class="section-subtitle">2. HI Scaling Relations and Environmental Effects in Synergy with DESI</h3>
+        <p>The extensive overlap with DESI and the Legacy Survey group catalogs allows for a multi-dimensional study of HI gas fractions and scaling relations. We investigate how the neutral gas content of galaxies correlates with stellar mass, star formation rate, and morphology. Furthermore, by stacking HI spectra across different environments—from isolated field galaxies to groups and clusters—we can quantify how gas reservoirs are affected by their large-scale surroundings and halo properties.</p>
+    
+        <h3 class="section-subtitle">3. Cosmic HI Density Ω<sub>HI</sub> and Intensity Mapping</h3>
+        <p>HD² constrains the comoving HI density Ω<sub>HI</sub> through both direct detections and spectral stacking of optically-selected galaxies. The deep FAST data further enable HI intensity mapping to probe the mean HI signal out to z ~ 0.3, tracing the evolution of neutral gas content across cosmic time and providing complementary constraints to measurements from other redshifts.</p>
+    
+        <h3 class="section-subtitle">4. Large-Scale Structure and Clustering</h3>
+        <p>With a high source density of HI detections within the DESI footprint, HD² maps the three-dimensional distribution of HI galaxies with high fidelity. This enables precise measurements of HI galaxy clustering and redshift-space distortions, revealing how HI-selected samples trace the underlying matter distribution and the filamentary structures of the cosmic web.</p>
+    
+        <h3 class="section-subtitle">5. Discovery of Rare and Exotic Populations</h3>
+        <p>The combination of deep FAST data with high-resolution HSC-SSP imaging facilitates the discovery of rare system populations. This includes ultra-diffuse galaxies (UDGs), low surface brightness systems, and potential optically-dark gas clouds. The blind nature of the survey ensures an unbiased search for these exotic objects, maximizing the potential for discovering new classes of HI-rich systems.</p>
     </section>
     
-    <!-- Secondary Science -->
-    <section class="content-section">
-        <h2 class="section-title">Secondary Science Topics</h2>
-        
-        <div class="card-grid">
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">🌊</div>
-                    <h3 class="card-title">Tidal Features</h3>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Search for HI tidal tails and bridges indicating galaxy interactions and mergers in the local universe.</p>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">💫</div>
-                    <h3 class="card-title">Star Formation</h3>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Investigate the relationship between HI content, molecular gas, and star formation activity using multi-wavelength data.</p>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">🎯</div>
-                    <h3 class="card-title">Dark Matter</h3>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Use HI rotation curves to constrain the dark matter distribution in detected galaxies and test modified gravity theories.</p>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">🔭</div>
-                    <h3 class="card-title">Low Surface Brightness</h3>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Detect low surface brightness galaxies that may be missed by optical surveys but are rich in neutral hydrogen.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Expected Outcomes -->
-    <section class="content-section">
-        <h2 class="section-title">Expected Outcomes</h2>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Science Product</th>
-                    <th>Expected Yield</th>
-                    <th>Timeline</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HI-detected galaxies</td>
-                    <td>[To be estimated]</td>
-                    <td>After data release 1</td>
-                </tr>
-                <tr>
-                    <td>Spectra with S/N > 5</td>
-                    <td>[To be estimated]</td>
-                    <td>After data release 1</td>
-                </tr>
-                <tr>
-                    <td>HI mass function measurement</td>
-                    <td>Extended to lower masses</td>
-                    <td>DR1 + 6 months</td>
-                </tr>
-                <tr>
-                    <td>Clustering analysis</td>
-                    <td>Power spectrum, correlation function</td>
-                    <td>DR1 + 12 months</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
     
     <!-- Collaborations -->
     <section class="content-section">
-        <h2 class="section-title">Multi-wavelength Collaborations</h2>
+        <h2 class="section-title">Multi-wavelength Resources</h2>
         
         <p>The HD2 survey region has been or will be observed by several other facilities, enabling rich multi-wavelength science:</p>
         
         <ul>
-            <li><strong>Optical spectroscopy:</strong> SDSS, DESI, and other surveys for redshift confirmation and stellar population analysis</li>
-            <li><strong>Infrared:</strong> WISE, Spitzer, and Herschel data for dust and stellar mass estimates</li>
+            <li><strong>Optical spectroscopy and photometry:</strong> <a href="https://www.sdss.org/" target="_blank">SDSS</a>, <a href="https://www.desi.lbl.gov/" target="_blank">DESI</a>, <a href="https://hsc.mtk.nao.ac.jp/ssp/" target="_blank">HSC-SSP</a>, and other surveys for redshift confirmation and stellar population analysis</li>
+            <li><strong>Infrared:</strong> <a href="https://wise.ssl.berkeley.edu/" target="_blank">WISE</a> data for dust and stellar mass estimates</li>
             <li><strong>CO observations:</strong> Molecular gas measurements to complement HI data</li>
-            <li><strong>UV:</strong> GALEX data for star formation rate indicators</li>
-            <li><strong>Radio continuum:</strong> Synchrotron emission and star formation tracers</li>
+            <li><strong>UV:</strong> <a href="https://www.galex.caltech.edu/" target="_blank">GALEX</a> data for star formation rate indicators</li>
+            <li><strong>Radio continuum:</strong> <a href="https://shorturl.at/SUIOn" target="_blank">NVSS</a>/<a href="http://first.colorado.edu/" target="_blank">FIRST</a>, and stars formation tracers</li>
         </ul>
     </section>
     
-    <!-- Editing Note -->
-    <section class="content-section">
-        <div class="info-box">
-            <h3 class="info-box-title">Editing This Page</h3>
-            <p>This page contains the scientific goals of the HD2 survey. To update:</p>
-            <ol>
-                <li>Edit <code>hd2/science.md</code> in your repository</li>
-                <li>Add specific science goals, expected yields, and timelines</li>
-                <li>Include any relevant equations using LaTeX syntax (add <code>math: true</code> to the front matter)</li>
-                <li>Update the expected outcomes table with realistic estimates</li>
-            </ol>
-        </div>
-    </section>
 </div>
