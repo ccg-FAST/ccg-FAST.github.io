@@ -152,7 +152,6 @@ li {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: var(--shadow-md);
 }
 
 .header-inner {
@@ -393,6 +392,8 @@ li {
     color: white;
     padding: var(--space-20) 0;
     text-align: center;
+    border-top: none;
+    margin-top: -2px; /* 稍微向上移动以覆盖缝隙 */
 }
 
 .hero-title {
@@ -672,6 +673,7 @@ pre code {
     box-shadow: var(--shadow-sm);
     border: 1px solid var(--color-border);
     transition: all var(--transition-normal);
+    overflow: hidden;
 }
 
 .person-card:hover {
@@ -680,15 +682,32 @@ pre code {
 }
 
 .person-avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: calc(100% + var(--space-6) * 2);
+    height: 300px;
+    margin: calc(var(--space-6) * -1) calc(var(--space-6) * -1) var(--space-4) calc(var(--space-6) * -1);
+    object-fit: cover;
     background: linear-gradient(135deg, var(--color-bg-alt) 0%, var(--color-bg-dark) 100%);
-    margin: 0 auto var(--space-4);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2.5rem;
+}
+
+.person-detail {
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin-top: var(--space-3);
+    border-top: 1px solid var(--color-border-light);
+    padding-top: var(--space-3);
+}
+
+.person-detail p {
+    margin-bottom: var(--space-2);
+}
+
+.person-detail a {
+    color: var(--color-accent);
 }
 
 .person-name {
@@ -1031,4 +1050,11 @@ pre code {
         font-size: 0.8em;
         color: var(--color-text-muted);
     }
+}
+
+/* Footer Metadata Styles */
+.footer-metadata {
+    margin-top: 0.5rem;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
 }

@@ -29,7 +29,7 @@ title: M31 Publications
             <div class="card-body">
                 <h3 class="card-title">Observation of HI around Three Satellite Galaxies of M31 with FAST: Andromeda II, NGC 205, and NGC 185</h3>
                 <p class="card-text">
-                    <strong>Authors:</strong> Liu, J., Wang, J., Jing, Y., et al.<br>
+                    <strong>Authors:</strong> Liu, Z., Wang, J., Jing, Y., et al.<br>
                     <strong>Journal:</strong> Research in Astronomy and Astrophysics, 24, 085008 (2024)
                 </p>
                 <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">

@@ -15,6 +15,8 @@ title: Home
     </div>
 </section>
 
+<br>
+
 <!-- About HI Surveys -->
 <section class="container">
     <div class="content-section">
