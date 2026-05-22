@@ -47,7 +47,7 @@ title: HD2 Publications
         <!-- Paper I -->
         <div class="card" style="margin-bottom: var(--space-4);">
             <div class="card-body">
-                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST I. Pipeline Architecture</h3>
+                <h3 class="card-title">HiFAST: An HI Data Calibration and Imaging Pipeline for FAST </h3>
                 <p class="card-text">
                     <strong>Authors:</strong> Yingjie Jing, Jie Wang, Chen Xu, et al.<br>
                     <strong>Journal:</strong> Science China Physics, Mechanics &amp; Astronomy, 67, 259514 (2024)
