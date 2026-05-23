@@ -22,7 +22,7 @@ title: Home
     <div class="content-section">
         <h2 class="section-title">About HI Surveys</h2>
         
-        <p>Neutral hydrogen (HI) is the most abundant element in the universe and serves as a fundamental tracer of cosmic structure. The 21-cm hyperfine transition line of HI provides a unique window into the distribution, kinematics, and physical conditions of gas in galaxies, enabling studies of galaxy formation, evolution, and cosmology.</p>
+        <p><strong>Neutral hydrogen</strong> (HI) is the most abundant element in the universe and serves as a fundamental tracer of cosmic structure. The 21-cm hyperfine transition line of HI provides a unique window into the distribution, kinematics, and physical conditions of gas in galaxies, enabling studies of galaxy formation, evolution, and cosmology.</p>
         
         <p>The <a href="https://fast.bao.ac.cn/" target="_blank" rel="noopener">FAST</a> (Five-hundred-meter Aperture Spherical radio Telescope), located in Guizhou Province, China, is the world's largest single-dish radio telescope. With its unprecedented sensitivity and large collecting area, FAST opens new frontiers for HI astronomy, allowing us to probe fainter and more distant HI emissions than ever before.</p>
         
@@ -163,16 +163,20 @@ title: Home
     </div>
 </section>
 
-
 <!-- Contact -->
 <section class="container">
     <div class="content-section">
         <h2 class="section-title">Contact</h2>
+        
+        <p>The <strong>Computational Cosmology Group</strong> (CCG) at the National Astronomical Observatories, Chinese Academy of Sciences (<a href="http://www.nao.cas.cn/" target="_blank" rel="noopener">NAOC</a>) is dedicated to using both cosmological simulations and observations to explore the hidden truths of dark matter and galaxies in our Universe. Welcome to visit the <a href="https://ccg-naoc.github.io/index.html" target="_blank" rel="noopener">CCG homepage</a> to learn more.</p>
         
         <p>For inquiries about our HI surveys, data access, or collaboration opportunities, please contact the CCG group or visit our <a href="{{ '/people' | relative_url }}">people page</a> for individual contact information.</p>
         
         <div class="alert alert-info">
             <strong>Data Access:</strong> Survey data products are available through the individual project pages. See <a href="{{ '/hd2/data' | relative_url }}">HD² Data</a> and <a href="{{ '/m31/data' | relative_url }}">M31 Data</a> for downloads.
         </div>
+
+
+         
     </div>
 </section>

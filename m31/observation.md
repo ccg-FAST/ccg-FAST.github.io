@@ -29,7 +29,7 @@ title: M31 Observations
         <div class="figure-container" style="text-align: center; margin: 2rem 0;">
             <img src="{{ '/assets/images/M31_area.png' | relative_url }}" alt="M31 Survey Footprint" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <p class="figure-caption" style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; color: #666;">
-                <strong>Figure:</strong> The M31 survey's observed sky region. The orange dashed line indicates the first-year sky coverage, with the second and third year coverage extending to the blue area. The red ellipses mark the locations of M31 and M33, while the red five-pointed star identifies the calibrator source 3C48. The purple circle denotes a 160 kpc radius from the center of M31. The green line at declination +36° represents the ALFALFA coverage limit (south of 36° only), which largely coincides with the background grayscale image showing SDSS g-band optical coverage. (<em>Credit: Xu Yiwei in prep.</em>)
+                <strong>Figure:</strong> The M31 survey's observed sky region. The orange dashed line indicates the first-year sky coverage, with the second and third year coverage extending to the blue area. The red ellipses mark the locations of M31 and M33, while the red five-pointed star identifies the calibrator source 3C48. The purple circle denotes a 160 kpc radius from the center of M31. The green line at declination +36° represents the ALFALFA coverage limit (south of 36° only), which largely coincides with the background grayscale image showing SDSS g-band optical coverage. (<em>Credit: Xu, Yiwei & Xu, Chen in prep.</em>)
             </p>
         </div>
     </section>
@@ -51,19 +51,19 @@ title: M31 Observations
                 <tr>
                     <td>Y1 (ZD2021_4)</td>
                     <td>593 deg²</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>Sep 2021 – Feb 2022</td>
                 </tr>
                 <tr>
                     <td>Y2 (ZD2022_4)</td>
                     <td>685 deg²</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>Oct 2022 – Feb 2023</td>
                 </tr>
                 <tr>
                     <td>Y3 (ZD2023_4)</td>
                     <td>685 deg²</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>Sep 2023 – Feb 2024</td>
                 </tr>
             </tbody>
