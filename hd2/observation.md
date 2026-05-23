@@ -30,7 +30,7 @@ title: HD2 Observations
         <div class="figure-container" style="text-align: center; margin: 2rem 0;">
             <img src="{{ '/assets/images/HD2_area.png' | relative_url }}" alt="HD2 Survey Footprint" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <p class="figure-caption" style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; color: #666;">
-                <strong>Figure:</strong> Sky distribution of HD² survey fields overlaid on DESI DR1 spectroscopic completeness (yellow = completeness ~1.0; purple = ~0.4). Red box: HSC-SSP wide field. Orange: Pilot Survey (10 deg²). Blue solid: Y1 shallow (77 deg²). Dark blue solid: Y1 deep (6 deg²). Light blue dashed: Y2 shallow (22.4 deg²). Green dashed: Y2 medium-deep (46 deg²). (Credit: Xu, Chen)
+                <strong>Figure:</strong> Sky distribution of HD² survey fields overlaid on DESI DR1 spectroscopic completeness (yellow = completeness ~1.0; purple = ~0.4). Red box: HSC-SSP wide field. Orange: Pilot Survey (10 deg²). Blue solid: Y1+Y2 wide (100 deg²). Dark blue solid: Y1 deep (5 deg²). Green dashed: Y2 medium-deep (46 deg²). (Credit: Xu, Chen 2026)
             </p>
         </div>
 
@@ -45,7 +45,7 @@ title: HD2 Observations
                 <tr>
                     <th>Milestone</th>
                     <th>Area</th>
-                    <th>Depth (passes)</th>
+                    <th>Cumulative Depth <br>(drift scan passes)<br> </th>
                     <th>Status</th>
                     <th>Period</th>
                 </tr>
@@ -55,49 +55,57 @@ title: HD2 Observations
                     <td>Pilot Survey</td>
                     <td>10 deg²</td>
                     <td>9 passes (~7.3 min/beam)</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>Jul–Aug 2023</td>
                 </tr>
                 <tr>
-                    <td>Y1 Shallow</td>
+                    <td>Y1 Wide</td>
                     <td>77 deg²</td>
                     <td>9 passes (~7.3 min/beam)</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>Aug 2024 – Apr 2025</td>
                 </tr>
                 <tr>
                     <td>Y1 Deep</td>
                     <td>6 deg²</td>
                     <td>36 passes (~29 min/beam)</td>
-                    <td>✓ Complete</td>
+                    <td>Complete</td>
                     <td>May–Jun 2025</td>
                 </tr>
                 <tr>
-                    <td>Y2 Shallow (100 deg² complete)</td>
+                    <td>Y2 Wide</td>
                     <td>23 deg²</td>
-                    <td>9 passes</td>
-                    <td>✓ Complete</td>
+                    <td>9 passes (~7.3 min/beam)</td>
+                    <td>Y1+Y2 Wide = 100 deg²<br>Complete</td>
                     <td>Mar 2026</td>
                 </tr>
                 <tr>
                     <td>Y2 Medium-deep</td>
                     <td>46 deg²</td>
                     <td>18 passes (~14.6 min/beam)</td>
-                    <td>⏳ In progress</td>
-                    <td>Expected 2027</td>
+                    <td>Complete</td>
+                    <td>Mar-Apr 2026</td>
                 </tr>
+                <tr>
+                    <td>Y3 Medium-deep</td>
+                    <td>54 deg²</td>
+                    <td>18 passes (~14.6 min/beam)</td>
+                    <td>Planned</td>
+                    <td>2027</td>
+                </tr>
+
                 <tr>
                     <td>Full Survey (24+ passes)</td>
                     <td>100 deg²</td>
-                    <td>24 passes (~20 min/beam)</td>
-                    <td>🔭 Planned</td>
-                    <td>~2028</td>
+                    <td>24+ passes (>20 min/beam)</td>
+                    <td>Planned</td>
+                    <td>Expected 2028</td>
                 </tr>
             </tbody>
         </table>
         
         <div class="alert alert-info">
-            <strong>Progress Update:</strong> As of March 2026, the full 100 deg² footprint has been observed to a shallow depth of 9 drift-scan passes (rms ~ 0.45 mJy beam⁻¹). Observations are ongoing to deepen coverage toward the final survey sensitivity of 0.28 mJy beam⁻¹, with completion expected around 2028.
+            <strong>Progress Update:</strong> As of March 2026, the full 100 deg² footprint has been observed to a Wide depth of 9 drift-scan passes (rms ~ 0.45 mJy beam⁻¹). Observations are ongoing to deepen coverage toward the final survey sensitivity of 0.28 mJy beam⁻¹, with completion expected around 2028.
         </div>
     </section>
     
@@ -111,8 +119,8 @@ title: HD2 Observations
         <h3 class="section-subtitle">Layered Depth Strategy</h3>
         <p>HD² adopts a tiered observing strategy to balance area coverage and integration depth across its multi-year program:</p>
         <ul>
-            <li><strong>Shallow tier (9 passes):</strong> rms ~ 0.45 mJy beam⁻¹ at 4.8 km s⁻¹ — matches the pilot survey depth, covering the full 100 deg²</li>
-            <li><strong>Medium tier (18 passes):</strong> rms ~ 0.32 mJy beam⁻¹ — covering ~46 deg² in Year 2</li>
+            <li><strong>Wide tier (9 passes):</strong> rms ~ 0.45 mJy beam⁻¹ at 4.8 km s⁻¹ — matches the pilot survey depth, covering the full 100 deg²</li>
+            <li><strong>Medium-deep tier (18 passes):</strong> rms ~ 0.32 mJy beam⁻¹ — covering ~46 deg² in Year 2</li>
             <li><strong>Deep tier (24+ passes):</strong> rms ~ 0.28 mJy beam⁻¹ — full survey target sensitivity over 100 deg², equivalent to ~20 min integration per beam</li>
             <li><strong>Deepest tier (36 passes):</strong> rms ~ 0.23 mJy beam⁻¹ — 6 deg² ultra-deep field in Year 1</li>
         </ul>
@@ -235,7 +243,7 @@ title: HD2 Observations
             <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad30b5" target="_blank">Liu et al. 2024 (Paper II)</a>, 
             <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad9685" target="_blank">Xu et al. 2025 (Paper III)</a>, and
             <a href="https://iopscience.iop.org/article/10.1088/1674-1056/ad9092" target="_blank">Chen et al. 2026 (Paper IV)</a>.
-            The further details on the survey implementation can be found in <strong>Xu et al. (submitted to ApJS)</strong>.
+            The further details on the survey implementation can be found in <strong>Xu et al. 2026</strong>.
         </p>
     </section>
     

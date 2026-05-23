@@ -26,7 +26,7 @@ title: HD2 Science
         
         <p>The HD² survey is designed to open a new parameter space in extragalactic HI astronomy: deeper than wide-field surveys and wider than pointed deep surveys, within a field richly covered by DESI, HSC-SSP, and other multiwavelength datasets. Our science goals span from the statistics of neutral gas in the local universe to the HI distribution of the large structure.</p>
         
-        <h3 class="section-subtitle">1. Census of HI-Bearing Galaxies and the HI Mass Function</h3>
+        <h3 class="section-subtitle">1. Census of HI Content of Galaxies and the HI Mass Function</h3>
         <p>A fundamental goal of HD² is to provide a highly complete census of HI-bearing galaxies. By leveraging FAST's exceptional sensitivity over a contiguous 100 deg² area, the survey minimizes selection effects and cosmic variance. This enables a robust measurement of the HI mass function (HIMF), providing a reliable benchmark for cosmological simulations and tracing the distribution of neutral gas in the local universe.</p>
         
         <h3 class="section-subtitle">2. HI Scaling Relations and Environmental Effects in Synergy with DESI</h3>

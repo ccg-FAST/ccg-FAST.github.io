@@ -52,7 +52,7 @@ title: Home
         <div class="figure-container" style="text-align: center; margin: 2rem 0;">
             <img src="assets/images/surveys.png" alt="HI Survey Comparison" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <p class="figure-caption" style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.6; color: #666;">
-                <strong>Figure:</strong> Comparison of HI surveys in terms of spatial resolution vs. column density sensitivity (left) and sky coverage vs. column density sensitivity (right). Our surveys (red squares) occupies a unique parameter space, combining arcminute-scale spatial resolution with hundreds of deg² sky coverage while achieving deep column density limits of log N<sub>HI</sub> ~ 17.5 cm<sup>-2</sup> at 20 km s<sup>-1</sup> resolution — a balance unmatched by wide-field shallow surveys or ultra-deep surveys. (Credit: Xu, Chen)
+                <strong>Figure:</strong> Comparison of HI surveys in terms of spatial resolution vs. column density sensitivity (left) and sky coverage vs. column density sensitivity (right). Our surveys (red squares) occupies a unique parameter space, combining arcminute-scale spatial resolution with hundreds of deg² sky coverage while achieving deep column density limits of log N<sub>HI</sub> ~ 17.5 cm<sup>-2</sup> at 20 km s<sup>-1</sup> resolution — a balance unmatched by wide-field shallow surveys or ultra-deep surveys. (Credit: Xu, Chen/2026)
             </p>
         </div>
 

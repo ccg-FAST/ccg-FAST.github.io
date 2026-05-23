@@ -6,7 +6,7 @@ title: HD2 Data
 <div class="page-header">
     <div class="container">
         <h1 class="page-title">HD² Data Products</h1>
-        <p class="page-subtitle">Download Catalogs, Spectra, and Images</p>
+        <p class="page-subtitle">Data Catalogs, Spectra, and Data Policy</p>
     </div>
 </div>
 
@@ -24,8 +24,8 @@ title: HD2 Data
     <section class="content-section">
         <h2 class="section-title">Data Releases</h2>
         
-        <div class="alert alert-warning">
-            <strong>To be determined</strong> <br>
+        <div class="alert alert-info">
+            <strong> 🎉 Our pilot survey data release is available! </strong> <br>
         </div>
         
         <table>
