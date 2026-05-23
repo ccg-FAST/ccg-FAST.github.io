@@ -138,20 +138,30 @@ title: M31 Data
         <h2 class="section-title">Data Policy</h2>
         
         <h3 class="section-subtitle">Usage Rights</h3>
-        <p>The M31 survey data policy is currently under discussion. Project members have priority access to the data products.</p>
+        <p>For data that has not yet been released, the M31 survey data policy is currently under discussion. Project members have priority access to the data products.</p>
         
         <h3 class="section-subtitle">Citation Requirements</h3>
-        <p>Publications using M31 survey data should cite the following papers:</p>
-        <ul>
-            <li>HiFAST pipeline papers (Jing et al. 2024; Liu et al. 2024; Xu et al. 2025; Chen et al. 2026)</li>
-            <li>Relevant M31 paper </li>
-        </ul>
+        <p>If you use M31 data in your research, please cite the <a href="{{ '/m31/publications' | relative_url }}">following papers</a>:</p>
+
+        <div class="alert alert-info">
+            <p><strong>Relevant M31 papers</strong><br>
+            See the <a href="{{ '/m31/publications' | relative_url }}">Publication page</a>. </p>
+
+            <p><strong>HiFAST pipeline papers:</strong><br>
+            Jing et al. 2024; Liu et al. 2024; Xu et al. 2025; Chen et al. 2026</p>
+        </div>
         
         <h3 class="section-subtitle">Acknowledgment Text</h3>
-        <div class="alert alert-info">
-            <em>"This research made use of data from the FAST M31 Survey, conducted by the CCG group. The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a national major science research facility in China, operated by the National Astronomical Observatories, Chinese Academy of Sciences.
-            We acknowledge the support from the FAST-M31 survey team (Computational Cosmology Group, NAOC). The M31 survey data were reduced using the HiFAST pipeline. "</em>
+        <p>Additionally, please acknowledge the FAST telescope and the CCG group in your publications using the template below:</p>
+
+        <div class="info-box" style="margin-top: var(--space-4);">
+            <h3 class="info-box-title">Acknowledgement Template</h3>
+            <p style="font-style: italic; line-height: 1.8;">
+                This work made use of the data from FAST (Five-hundred-meter Aperture Spherical radio Telescope) (<a href="https://cstr.cn/31116.02.FAST" target="_blank">https://cstr.cn/31116.02.FAST</a>). FAST is a Chinese national mega-science facility, operated by National Astronomical Observatories, Chinese Academy of Sciences.
+                We acknowledge the support from the FAST-M31 survey team (Computational Cosmology Group, NAOC). The M31 survey data were reduced using the HiFAST pipeline. 
+            </p>
         </div>
+
     </section>
     
     <!-- Contact -->

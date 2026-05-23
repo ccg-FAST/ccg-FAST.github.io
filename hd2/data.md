@@ -6,7 +6,7 @@ title: HD2 Data
 <div class="page-header">
     <div class="container">
         <h1 class="page-title">HD² Data Products</h1>
-        <p class="page-subtitle">Data Catalogs, Spectra, and Data Policy</p>
+        <p class="page-subtitle">Data Catalogs and Data Policy</p>
     </div>
 </div>
 
@@ -25,7 +25,7 @@ title: HD2 Data
         <h2 class="section-title">Data Releases</h2>
         
         <div class="alert alert-info">
-            <strong> 🎉 Our pilot survey data release is available! </strong> <br>
+            <strong> 🎉 Our pilot survey data release is available! (May 2026)</strong> <br>
         </div>
         
         <table>
@@ -40,15 +40,15 @@ title: HD2 Data
             <tbody>
                 <tr>
                     <td>PDR (z &lt; 0.09)</td>
-                    <td>Soon</td>
+                    <td>public on May 2026</td>
                     <td>10 deg²</td>
-                    <td>pilot data release</td>
+                    <td>pilot data release, 9 passes (~7.3 min/beam) </td>
                 </tr>
                 <tr>
                     <td>DR1</td>
                     <td>Planned</td>
                     <td>100 deg²</td>
-                    <td>Y1+Y2 shallow</td>
+                    <td>Y1+Y2 Wide, 9 passes (~7.3 min/beam) </td>
                 </tr>
                 <tr>
                     <td>DR2</td>
@@ -71,7 +71,7 @@ title: HD2 Data
                 <div class="data-meta">FITS format | See Xu et al. (2026) for details</div>
             </div>
             <div class="data-action">
-                <a href="#" class="btn btn-primary">Download</a>
+                <a href="{{ '/hd2/data/pdr/' | relative_url }}" class="btn btn-primary">View Details</a>
             </div>
         </div>
         
@@ -87,7 +87,7 @@ title: HD2 Data
             <span class="data-icon">📈</span>
             <div class="data-info">
                 <div class="data-title">HD2 PDR HI Spectra</div>
-                <div class="data-meta">FITS format | 1D extracted spectra</div>
+                <div class="data-meta">FITS format | 1D extracted spectra | See Xu et al. (2026) for details</div>
             </div>
             <div class="data-action">
                 <a href="{{ '/people' | relative_url }}" class="btn btn-primary">Contact PI</a>
@@ -104,17 +104,20 @@ title: HD2 Data
         <h2 class="section-title">Data Policy</h2>
         
         <h3 class="section-subtitle">Usage Rights</h3>
-        <p>The HD² survey data policy is currently under discussion. In principle, survey members have priority access to the data for scientific analysis and publication.</p>
+        <p><strong>We welcome everyone in the community to use our public data for scientific research!</strong> For data that has not yet been released, the HD² survey data policy is currently under discussion. In principle, survey members have priority access to the unpublic data for scientific analysis and publication.</p>
         
         <h3 class="section-subtitle">Citation Requirements</h3>
-        <p>If you use HD2 data in your research, please cite the following papers (PDR and DR1):</p>
+        <p>If you use HD2 data in your research, please cite the <a href="{{ '/hd2/publications' | relative_url }}">following papers</a> (PDR and DR1):</p>
         
         <div class="alert alert-info">
             <p><strong>Pilot Data Release (PDR) Paper:</strong><br>
             Chen Xu, Yingjie Jing, Jie Wang, et al., "The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey"</p>
             
             <p><strong>First Data Release (DR1) Paper:</strong><br>
-            Paper details coming soon (DR1 paper).</p>
+            Waiting :D </p>
+
+            <p><strong>HiFAST pipeline papers:</strong><br>
+            Jing et al. 2024; Liu et al. 2024; Xu et al. 2025; Chen et al. 2026</p>
         </div>
         
         <h3 class="section-subtitle">Acknowledgment Text</h3>
