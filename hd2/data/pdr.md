@@ -96,8 +96,8 @@ permalink: /hd2/data/pdr/
         <div class="info-box" style="margin-top: 2rem;">
             <h3 class="info-box-title">Notes</h3>
             <ul style="margin-bottom: 0;">
-                <li><strong>(1)</strong>: By method given in Sp05 [2005ApJS..160..149S].</li>
-                <li><strong>(2)</strong>: From curve-of-growth method in Yu20 [2020ApJ...898..102Y].</li>
+                <li><strong>(1)</strong>: By method given in Springob et al. 2005 [<a href="https://ui.adsabs.harvard.edu/abs/2005ApJS..160..149S/abstract" target="_blank">2005ApJS..160..149S</a>].</li>
+                <li><strong>(2)</strong>: From curve-of-growth method in Yu et al. 2020 [<a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...898..102Y/abstract" target="_blank">2020ApJ...898..102Y</a>].</li>
                 <li><strong>(3)</strong>: G = good; B = bad; C = confused; U = uncertain.</li>
             </ul>
         </div>
