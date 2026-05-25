@@ -35,7 +35,7 @@ permalink: /hd2/data/pdr/
         <div class="info-box">
             <p><strong>Title:</strong> The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey<br>
             <strong>Authors:</strong> Xu C., Jing Y., Wang J., Zou H., Du W., Yu N., Guo H., Liu Z., Chen Q., Liang T., Hou Z., Xu Y., Li X., Hu H., Liu Z., Zhao P., Fang T., Gao L., Guo Q., Gu Q., Jiang Z., Kang X., Kong X., Li C., Pan J., Wang T., Zhou Y., Wang W., Wang J.<br>
-            <strong>Paper:</strong> <a href="#" target="_blank">arXiv:XXXX.XXXXX</a> <br>
+            <strong>Paper:</strong> <a href="https://arxiv.org/abs/2605.23686" target="_blank">arXiv:2605.23686</a> <br>
             <strong>Version:</strong> Pre-release (2026/05, v2.6)<br>
             <strong>Contact:</strong> For questions regarding the catalog, please contact Chen Xu (xuchen[at]nao.cas.cn).</p>
         </div>

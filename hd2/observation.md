@@ -243,7 +243,7 @@ title: HD2 Observations
             <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad30b5" target="_blank">Liu et al. 2024 (Paper II)</a>, 
             <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad9685" target="_blank">Xu et al. 2025 (Paper III)</a>, and
             <a href="https://iopscience.iop.org/article/10.1088/1674-1056/ad9092" target="_blank">Chen et al. 2026 (Paper IV)</a>.
-            The further details on the survey implementation can be found in <strong>Xu et al. 2026</strong>.
+            The further details on the survey implementation can be found in <a href="https://arxiv.org/abs/2605.23686" target="_blank">Xu et al. 2026</a>.
         </p>
     </section>
     

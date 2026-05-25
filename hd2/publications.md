@@ -29,10 +29,10 @@ title: HD2 Publications
                 <h3 class="card-title">The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey</h3>
                 <p class="card-text">
                     <strong>Authors:</strong> Chen Xu, Yingjie Jing, Jie Wang, et al.<br>
-                    <strong>Journal:</strong> Submitted to ApJS, 2026
+                    <strong>Journal:</strong> ApJS, 2026
                 </p>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-outline disabled">arXiv</a>
+                    <a href="https://arxiv.org/abs/2605.23686" target="_blank" class="btn btn-outline">arXiv</a>
                     <a href="#" class="btn btn-outline disabled">Journal</a>
                     <a href="#" class="btn btn-outline disabled">ADS</a>
                 </div>
@@ -106,6 +106,7 @@ title: HD2 Publications
                 <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
                     <a href="https://iopscience.iop.org/article/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">Journal</a>
                     <a href="https://doi.org/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">DOI</a>
+                    <a href="https://arxiv.org/abs/2605.23685" target="_blank" class="btn btn-outline">arXiv</a>
                 </div>
             </div>
         </div>
