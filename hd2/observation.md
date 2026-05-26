@@ -126,7 +126,7 @@ title: HD2 Observations
         </ul>
     
         <h3 class="section-subtitle">Calibration</h3>
-        <p>The HD² survey data are processed using the <a href="https://hifast.readthedocs.io/en/v1.4/index.html" target="_blank"><strong>HiFAST</strong></a> pipeline.
+        <p>The HD² survey data are processed using the <a href="https://hifast.readthedocs.io/en/latest/" target="_blank"><strong>HiFAST</strong></a> pipeline.
         </p>
         <ul>
             <li><strong>Noise diode calibration:</strong> High-power (~10 K) noise diode injected for 2 s every 5 min for antenna temperature calibration, see <a href="https://www.sciengine.com/SCPMA/doi/10.1007/s11433-023-2335-0" target="_blank">Jing et al. 2024 (SCPMA)</a> for details.</li>

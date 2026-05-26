@@ -34,7 +34,7 @@ title: HD2 Publications
                 <div class="card-footer">
                     <a href="https://arxiv.org/abs/2605.23686" target="_blank" class="btn btn-outline">arXiv</a>
                     <a href="#" class="btn btn-outline disabled">Journal</a>
-                    <a href="#" class="btn btn-outline disabled">ADS</a>
+                    <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260523686X/abstract" target="_blank" class="btn btn-outline">ADS</a>
                 </div>
             </div>
         </div>
@@ -106,6 +106,7 @@ title: HD2 Publications
                 <div class="card-footer" style="display:flex; gap: var(--space-2); flex-wrap: wrap;">
                     <a href="https://iopscience.iop.org/article/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">Journal</a>
                     <a href="https://doi.org/10.1088/1674-1056/ae4b27" target="_blank" class="btn btn-outline">DOI</a>
+                    <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260523685C/abstract" target="_blank" class="btn btn-outline">ADS</a>
                     <a href="https://arxiv.org/abs/2605.23685" target="_blank" class="btn btn-outline">arXiv</a>
                 </div>
             </div>

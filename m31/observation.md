@@ -78,7 +78,7 @@ title: M31 Observations
         <p>The M31 survey uses FAST's 19-beam receiver in drift scan mode. The telescope remains stationary pointing at a fixed declination while Earth's rotation scans the sky, keeping the zenith angle constant and ensuring stable gain throughout each session. The receiver is rotated by 23.4° so that all 19 beams provide uniform Nyquist spatial sampling across the survey field. Each drift scan session lasts ~2.5 hours, with ~68 scans per pass and ~170 hours per year. The flux calibrator 3C 48 is observed every 10 days.</p>
         
         <h3 class="section-subtitle">Calibration</h3>
-        <p>Data are processed using the <strong>HiFAST</strong> pipeline, ensuring consistency across FAST HI surveys.</p>
+        <p>Data are processed using the <a href="https://hifast.readthedocs.io/en/latest/" target="_blank"><strong>HiFAST</strong></a> pipeline, ensuring consistency across FAST HI surveys.</p>
         <ul>
             <li><strong>Noise diode calibration:</strong> A ~10 K noise diode is injected for 2 s every 5 min for antenna temperature calibration.</li>
             <li><strong>Flux calibration:</strong> 3C 48 observed every 10 days as the primary flux density calibrator.</li>
