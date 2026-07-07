@@ -29,13 +29,13 @@ title: HD2 Publications
                 <h3 class="card-title">The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey</h3>
                 <p class="card-text">
                     <strong>Authors:</strong> Chen Xu, Yingjie Jing, Jie Wang, et al.<br>
-                    <strong>Journal:</strong> ApJS, 2026, 285, 25
+                    <strong>Journal:</strong> The Astrophysical Journal Supplement Series, 285, 25 (2026)
                 </p>
                 <div class="card-footer">
-                    <a href="https://arxiv.org/abs/2605.23686" target="_blank" class="btn btn-outline">arXiv</a>
+                    <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ae7331" class="btn btn-outline disabled">Journal</a>
                     <a href="https://doi.org/10.3847/1538-4365/ae7331" target="_blank" class="btn btn-outline">DOI</a>
-                    <a href="#" class="btn btn-outline disabled">Journal</a>
                     <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260523686X/abstract" target="_blank" class="btn btn-outline">ADS</a>
+                    <a href="https://arxiv.org/abs/2605.23686" target="_blank" class="btn btn-outline">arXiv</a>
                 </div>
             </div>
         </div>
