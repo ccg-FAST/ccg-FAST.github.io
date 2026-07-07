@@ -33,6 +33,7 @@ title: HD2 Publications
                 </p>
                 <div class="card-footer">
                     <a href="https://arxiv.org/abs/2605.23686" target="_blank" class="btn btn-outline">arXiv</a>
+                    <a href="https://doi.org/10.3847/1538-4365/ae7331" target="_blank" class="btn btn-outline">DOI</a>
                     <a href="#" class="btn btn-outline disabled">Journal</a>
                     <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260523686X/abstract" target="_blank" class="btn btn-outline">ADS</a>
                 </div>
