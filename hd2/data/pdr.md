@@ -30,7 +30,11 @@ permalink: /hd2/data/pdr/
             </div>
         </div>
         
-        <p>This catalog contains <strong>339 extragalactic HI sources</strong> detected in the pilot survey of FAST Hundred-Deg² HI Deep (HD²) Survey, corresponding to Table 5 of Xu et al. 2026 in the FITS format.</p>
+        <p>This catalog contains <strong>339 extragalactic HI sources</strong> detected in the pilot survey of FAST Hundred-Deg² HI Deep (HD²) Survey, corresponding to <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ae7331#apjsae7331t5" target="_blank">Table 5 of Xu et al. 2026</a> in the FITS format.</p>
+
+        <div class="alert alert-info">
+            <strong>The published version </strong> of this table can be downloaded via <a href="https://content.cld.iop.org/journals/0067-0049/285/1/25/revision1/apjsae7331t5_mrt.txt" target="_blank">this link</a> in txt format.<br>
+        </div>
         
         <div class="info-box">
             <p><strong>Title:</strong> The FAST Hundred-Deg² HI Deep (HD²) Survey: Early Results from the Pilot Survey<br>
@@ -41,7 +45,7 @@ permalink: /hd2/data/pdr/
         </div>
 
         <div class="alert alert-warning">
-            <strong>Important:</strong> This is not the published version provided by ApJS. We have added several extra columns for convenience, including <em>Peak flux density</em>, <em>Notes</em>, and <em>internal IDs</em> based on the original published table.
+            <strong>Important:</strong> The catalog presented on this page is not the published version provided by ApJS. We have added several extra columns for convenience, including <em>Peak flux density</em>, <em>Notes</em>, and <em>internal IDs</em> based on the original published table.
         </div>
 
     </section>
