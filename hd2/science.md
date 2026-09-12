@@ -39,7 +39,7 @@ title: HD2 Science
         <p>With a high source density of HI detections within the DESI footprint, HD² maps the three-dimensional distribution of HI galaxies with high fidelity. This enables precise measurements of HI galaxy clustering and redshift-space distortions, revealing how HI-selected samples trace the underlying matter distribution and the filamentary structures of the cosmic web.</p>
     
         <h3 class="section-subtitle">5. Discovery of Rare and Exotic Populations</h3>
-        <p>The combination of deep FAST data with high-resolution HSC-SSP imaging facilitates the discovery of rare system populations. This includes ultra-diffuse galaxies (UDGs), low surface brightness systems, and potential optically-dark gas clouds. The blind nature of the survey ensures an unbiased search for these exotic objects, maximizing the potential for discovering new classes of HI-rich systems.</p>
+        <p>The combination of deep FAST data with high-resolution HSC-SSP imaging facilitates the discovery of rare system populations. This includes ultra-diffuse galaxies (UDGs), low surface brightness systems, and potential optically-dark gas clouds like RELHICs (e.g., <a href="https://ui.adsabs.harvard.edu/abs/2026A%26A...712L..12C/abstract" target="_blank" rel="noopener">Chen et al. 2026</a>). The blind nature of the survey ensures an unbiased search for these exotic objects, maximizing the potential for discovering new classes of HI-rich systems.</p>
     </section>
     
     
