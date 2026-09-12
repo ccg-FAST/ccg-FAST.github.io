@@ -150,7 +150,7 @@ title: M31 Observations
                 </tr>
                 <tr>
                     <td>Map rms sensitivity</td>
-                    <td>0.8 / 1.0 mJy beam⁻¹</td>
+                    <td>0.7 / 1.0 mJy beam⁻¹</td>
                     <td>At 4.8 / 1.6 km s⁻¹</td>
                 </tr>
                 <tr>
