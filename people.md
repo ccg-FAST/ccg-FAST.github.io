@@ -38,7 +38,7 @@ title: People
             <div class="person-card">
                 <img src="{{ '/assets/images/people/yingjie_jing.jpg' | relative_url }}" alt="Yingjie Jing" class="person-avatar">
                 <h3 class="person-name">Dr. Yingjie Jing (景英杰)</h3>
-                <p class="person-role">Postdoctoral Researcher</p>
+                <p class="person-role">Associate Researcher</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> Galaxy formation, HI gas, numerical simulations, machine learning.</p>
@@ -61,8 +61,8 @@ title: People
             
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Chen_Xu_徐晨_.jpg' | relative_url }}" alt="Chen Xu" class="person-avatar">
-                <h3 class="person-name">Chen Xu (徐晨)</h3>
-                <p class="person-role">PhD Student</p>
+                <h3 class="person-name">Dr. Chen Xu (徐晨)</h3>
+                <p class="person-role">Postdoc researcher</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> Radio astronomy, HI gas in galaxies, galaxy formation.</p>
@@ -73,7 +73,7 @@ title: People
 
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Qingze_Chen_陈箐泽_.jpg' | relative_url }}" alt="Qingze Chen" class="person-avatar">
-                <h3 class="person-name">Qingze Chen (陈箐泽)</h3>
+                <h3 class="person-name">Dr. Qingze Chen (陈箐泽)</h3>
                 <p class="person-role">PhD Student</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
@@ -86,7 +86,7 @@ title: People
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Zerui_Liu_刘泽瑞_.jpg' | relative_url }}" alt="Zerui Liu" class="person-avatar">
                 <h3 class="person-name">Zerui Liu (刘泽瑞)</h3>
-                <p class="person-role">PhD Student</p>
+                <p class="person-role">PhD Candidate</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> HI 21cm cosmology, galaxy formation, large scale structure formation.</p>
@@ -97,7 +97,7 @@ title: People
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Zhipeng_Hou_侯志鹏_.jpg' | relative_url }}" alt="Zhipeng Hou" class="person-avatar">
                 <h3 class="person-name">Zhipeng Hou (侯志鹏)</h3>
-                <p class="person-role">PhD Student</p>
+                <p class="person-role">PhD Candidate</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> Galaxy formation and evolution, HI observation.</p>
@@ -108,7 +108,7 @@ title: People
             <div class="person-card">
                 <img src="{{ '/assets/images/people/Yiwei_Xu_徐艺玮_.jpg' | relative_url }}" alt="Yiwei Xu" class="person-avatar">
                 <h3 class="person-name">Yiwei Xu (徐艺玮)</h3>
-                <p class="person-role">Master Student</p>
+                <p class="person-role">PhD Candidate</p>
                 <p class="person-affiliation">NAOC, CCG</p>
                 <div class="person-detail">
                     <p><strong>Research:</strong> Galaxy formation, HI.</p>
